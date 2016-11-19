@@ -1,6 +1,7 @@
 var NAVTREE =
 [
   [ "Wolf-Gang engine", "index.html", [
+    [ "Guides", "md_F:_Projects_Game_engine_project_Debug_data_internal_guides.html", null ],
     [ "API", "modules.html", "modules" ],
     [ "Angelscript", "usergroup0.html", [
       [ "Scripting and syntax", "^http://www.angelcode.com/angelscript/sdk/docs/manual/doc_script.html", null ],
