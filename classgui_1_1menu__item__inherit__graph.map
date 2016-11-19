@@ -1,0 +1,4 @@
+<map id="gui::menu_item" name="gui::menu_item">
+<area shape="rect" id="node3" href="$classgui_1_1menu__function.html" title="Menu that calls a function when selected. " alt="" coords="5,155,136,181"/>
+<area shape="rect" id="node2" href="$classgui_1_1menu.html" title="Base for a menu. " alt="" coords="31,5,110,32"/>
+</map>

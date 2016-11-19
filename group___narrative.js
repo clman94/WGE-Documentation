@@ -1,0 +1,28 @@
+var group___narrative =
+[
+    [ "box", "group___narrative.html#gaf353ef2d39987f753579a462143b156e", null ],
+    [ "option", "group___narrative.html#ga3cfe71f40b244562d3665516c3934c06", null ],
+    [ "add_speaker", "group___narrative.html#gad83fca7a0ab9d346d03a5996bed21f52", null ],
+    [ "append", "group___narrative.html#gab254797674f17162edd13ef89451f600", null ],
+    [ "clear_speakers", "group___narrative.html#ga9a828393a0923c9ba098fe096e127f3c", null ],
+    [ "end", "group___narrative.html#ga19197b39100911db67b2f772f56e94e3", null ],
+    [ "fappend", "group___narrative.html#gad128ea1789da4897bffe5cb33c675401", null ],
+    [ "fnewline", "group___narrative.html#ga0c8ec1156507b340079703bd82610ed7", null ],
+    [ "fnl", "group___narrative.html#ga8af74111ca7e1b9f6aca3606bca21baf", null ],
+    [ "fsay", "group___narrative.html#ga0ceefce3ffa29febded8c2bf358df8da", null ],
+    [ "get_box", "group___narrative.html#ga4e9ab944953c87569b3132a3fd0a694c", null ],
+    [ "hide", "group___narrative.html#ga89d334b4407ee3e5ee09f28360459a14", null ],
+    [ "keywait", "group___narrative.html#ga5266a73c5b1e4c063d61ffa21331189c", null ],
+    [ "move_box", "group___narrative.html#ga38487b9185f67a67756332dbe408a247", null ],
+    [ "multiselect", "group___narrative.html#gad4778a9127d9fd843e312afd5d0ef3b5", null ],
+    [ "newline", "group___narrative.html#gac52e13c9271f5af28d1db1625c59848d", null ],
+    [ "nl", "group___narrative.html#ga009f3b73da59c2a280caf06b2e2c4a89", null ],
+    [ "say", "group___narrative.html#ga9d381e71fff2f461cabb825b9cf16451", null ],
+    [ "select", "group___narrative.html#ga64605e9e64f6391939f4345dd5b4d611", null ],
+    [ "set_dialog_sound", "group___narrative.html#ga69d8b00f560358e603cc2b7812a0c9c1", null ],
+    [ "set_expression", "group___narrative.html#ga47048164ef974fc2f00234cfdb2d466f", null ],
+    [ "set_interval", "group___narrative.html#ga6f2c04e7ae5cf2960eeb378b4c65fd14", null ],
+    [ "set_speed", "group___narrative.html#ga16ae10550940600414c039e14fbac0ca", null ],
+    [ "show", "group___narrative.html#ga36cb17ab663581010b8ca5981cd6f07f", null ],
+    [ "wait", "group___narrative.html#ga77511b1d5a03309ad82e1763bafbb408", null ]
+];
