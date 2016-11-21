@@ -1,5 +1,7 @@
 var searchData=
 [
-  ['group',['group',['../classgui_1_1group.html',1,'gui']]],
-  ['group_5fitem',['group_item',['../classgui_1_1group__item.html',1,'gui']]]
+  ['menu',['menu',['../classgui_1_1menu.html',1,'gui']]],
+  ['menu_5fbranch',['menu_branch',['../classgui_1_1menu__branch.html',1,'gui']]],
+  ['menu_5ffunction',['menu_function',['../classgui_1_1menu__function.html',1,'gui']]],
+  ['menu_5fitem',['menu_item',['../classgui_1_1menu__item.html',1,'gui']]]
 ];
