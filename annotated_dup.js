@@ -1,6 +1,7 @@
 var annotated_dup =
 [
     [ "gui", null, [
+      [ "basic_text_selection", "classgui_1_1basic__text__selection.html", "classgui_1_1basic__text__selection" ],
       [ "group", "classgui_1_1group.html", "classgui_1_1group" ],
       [ "group_item", "classgui_1_1group__item.html", "classgui_1_1group__item" ],
       [ "list_selection", "classgui_1_1list__selection.html", "classgui_1_1list__selection" ],

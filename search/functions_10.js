@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['unfocus',['unfocus',['../group___scene.html#ga606a976ee5d58e19850c636430889d9b',1,'player']]]
+  ['tick',['tick',['../classgui_1_1selector__control.html#a056976dfedf1eb62b8dae9f864ee0761',1,'gui::selector_control']]]
 ];

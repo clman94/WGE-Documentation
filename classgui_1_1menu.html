@@ -142,10 +142,48 @@ string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cl
 <tr class="memitem:a1030db8478114db2210fb50795c3e14d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgui_1_1menu.html#a1030db8478114db2210fb50795c3e14d">set_id</a> (const string &amp;in pId)</td></tr>
 <tr class="memdesc:a1030db8478114db2210fb50795c3e14d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set identification This string is usually used in the <a class="el" href="classgui_1_1selection__menu.html" title="Selection menu for a list of text. ">selection_menu</a> for the text.  <a href="#a1030db8478114db2210fb50795c3e14d">More...</a><br /></td></tr>
 <tr class="separator:a1030db8478114db2210fb50795c3e14d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd9f110dd42f45468ccb103191a929d6"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afd9f110dd42f45468ccb103191a929d6"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>menu</b> (const string &amp;in pId)</td></tr>
+<tr class="separator:afd9f110dd42f45468ccb103191a929d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae85ca883ae7664489d00e83e01de4425"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classgui_1_1menu.html">menu</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgui_1_1menu.html#ae85ca883ae7664489d00e83e01de4425">open</a> ()</td></tr>
+<tr class="memdesc:ae85ca883ae7664489d00e83e01de4425"><td class="mdescLeft">&#160;</td><td class="mdescRight">Open the menu Return null if there has been no selection (like going back).  <a href="#ae85ca883ae7664489d00e83e01de4425">More...</a><br /></td></tr>
+<tr class="separator:ae85ca883ae7664489d00e83e01de4425"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acfc1889eb5cfc7fed113b2c70a5c6cd7"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="acfc1889eb5cfc7fed113b2c70a5c6cd7"></a>
+string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgui_1_1menu.html#acfc1889eb5cfc7fed113b2c70a5c6cd7">get_id</a> ()</td></tr>
+<tr class="memdesc:acfc1889eb5cfc7fed113b2c70a5c6cd7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get identification of menu. <br /></td></tr>
+<tr class="separator:acfc1889eb5cfc7fed113b2c70a5c6cd7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1030db8478114db2210fb50795c3e14d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgui_1_1menu.html#a1030db8478114db2210fb50795c3e14d">set_id</a> (const string &amp;in pId)</td></tr>
+<tr class="memdesc:a1030db8478114db2210fb50795c3e14d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set identification This string is usually used in the <a class="el" href="classgui_1_1selection__menu.html" title="Selection menu for a list of text. ">selection_menu</a> for the text.  <a href="#a1030db8478114db2210fb50795c3e14d">More...</a><br /></td></tr>
+<tr class="separator:a1030db8478114db2210fb50795c3e14d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Base for a menu. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="ae85ca883ae7664489d00e83e01de4425"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classgui_1_1menu.html">menu</a> gui::menu::open </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Open the menu Return null if there has been no selection (like going back). </p>
+<p>The menu before it will have to handle it correctly: </p><div class="fragment"><div class="line">menu@ ret;</div><div class="line"><span class="keywordflow">do</span>{</div><div class="line">  <span class="comment">// Do its thing</span></div><div class="line">  ret = sub_menu.open();</div><div class="line">} <span class="keywordflow">while</span>(ret is null) <span class="comment">// Keep looping until an item is selected</span></div><div class="line">                     <span class="comment">// or this function returns null and then</span></div><div class="line">                     <span class="comment">// the caller before it will have to handle this.</span></div><div class="line"><span class="keywordflow">return</span> ret;</div></div><!-- fragment --> 
+</div>
+</div>
 <a class="anchor" id="ae85ca883ae7664489d00e83e01de4425"></a>
 <div class="memitem">
 <div class="memproto">
@@ -197,8 +235,35 @@ string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cl
 
 </div>
 </div>
-<hr/>The documentation for this class was generated from the following file:<ul>
+<a class="anchor" id="a1030db8478114db2210fb50795c3e14d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void gui::menu::set_id </td>
+          <td>(</td>
+          <td class="paramtype">const string &amp;in&#160;</td>
+          <td class="paramname"><em>pId</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set identification This string is usually used in the <a class="el" href="classgui_1_1selection__menu.html" title="Selection menu for a list of text. ">selection_menu</a> for the text. </p>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following files:<ul>
 <li>gui.as</li>
+<li>gui1.as</li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

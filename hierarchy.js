@@ -1,5 +1,6 @@
 var hierarchy =
 [
+    [ "gui::basic_text_selection", "classgui_1_1basic__text__selection.html", null ],
     [ "entity", "classentity.html", null ],
     [ "follow_character", "classfollow__character.html", null ],
     [ "gui::group", "classgui_1_1group.html", null ],
@@ -7,11 +8,15 @@ var hierarchy =
     [ "gui::list_selection", "classgui_1_1list__selection.html", null ],
     [ "gui::menu", "classgui_1_1menu.html", [
       [ "gui::menu_item", "classgui_1_1menu__item.html", [
+        [ "gui::menu_function", "classgui_1_1menu__function.html", null ],
         [ "gui::menu_function", "classgui_1_1menu__function.html", null ]
       ] ],
+      [ "gui::menu_item", "classgui_1_1menu__item.html", null ],
+      [ "gui::selection_menu", "classgui_1_1selection__menu.html", null ],
       [ "gui::selection_menu", "classgui_1_1selection__menu.html", null ]
     ] ],
     [ "gui::menu_branch", "classgui_1_1menu__branch.html", [
+      [ "gui::selection_menu", "classgui_1_1selection__menu.html", null ],
       [ "gui::selection_menu", "classgui_1_1selection__menu.html", null ]
     ] ],
     [ "scoped_entity", "classscoped__entity.html", null ],
