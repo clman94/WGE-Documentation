@@ -132,6 +132,10 @@ Functions</h2></td></tr>
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___game.html#gabadf68e0a0962940ddaf4bf6eea934fc">dprint</a> (const string &amp;in pMessage)</td></tr>
 <tr class="memdesc:gabadf68e0a0962940ddaf4bf6eea934fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print message for debugging. <br /></td></tr>
 <tr class="separator:gabadf68e0a0962940ddaf4bf6eea934fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa5b6b5eff8f05ae9d38ca5a669e45e04"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gaa5b6b5eff8f05ae9d38ca5a669e45e04"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___game.html#gaa5b6b5eff8f05ae9d38ca5a669e45e04">eprint</a> (const string &amp;in pMessage)</td></tr>
+<tr class="memdesc:gaa5b6b5eff8f05ae9d38ca5a669e45e04"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print error message. <br /></td></tr>
+<tr class="separator:gaa5b6b5eff8f05ae9d38ca5a669e45e04"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaec56aeaa82b91deb06e88abb2ff54077"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___game.html#gaec56aeaa82b91deb06e88abb2ff54077">get_delta</a> ()</td></tr>
 <tr class="memdesc:gaec56aeaa82b91deb06e88abb2ff54077"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get delta (time between each frame).  <a href="#gaec56aeaa82b91deb06e88abb2ff54077">More...</a><br /></td></tr>
 <tr class="separator:gaec56aeaa82b91deb06e88abb2ff54077"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -153,6 +157,12 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="grou
 bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___game.html#gaa836dec6bd6fe25797a2fb2684ad8f77">is_slot_used</a> (uint)</td></tr>
 <tr class="memdesc:gaa836dec6bd6fe25797a2fb2684ad8f77"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if a save slot is being used. <br /></td></tr>
 <tr class="separator:gaa836dec6bd6fe25797a2fb2684ad8f77"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga51a59d9658d77baf66dc9e7d435cfbac"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___game.html#ga51a59d9658d77baf66dc9e7d435cfbac">make_shared</a> (ref @pData, const string &amp;in pName)</td></tr>
+<tr class="memdesc:ga51a59d9658d77baf66dc9e7d435cfbac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Store a handle globally so other scenes can receive it.  <a href="#ga51a59d9658d77baf66dc9e7d435cfbac">More...</a><br /></td></tr>
+<tr class="separator:ga51a59d9658d77baf66dc9e7d435cfbac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gabd40ef8ad89fb40dfed4565cc1c6e760"><td class="memItemLeft" align="right" valign="top">ref&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___game.html#gabd40ef8ad89fb40dfed4565cc1c6e760">get_shared</a> (const string &amp;in pName)</td></tr>
+<tr class="memdesc:gabd40ef8ad89fb40dfed4565cc1c6e760"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieve handle of data.  <a href="#gabd40ef8ad89fb40dfed4565cc1c6e760">More...</a><br /></td></tr>
+<tr class="separator:gabd40ef8ad89fb40dfed4565cc1c6e760"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gab81ded0f9e3d4fcc7c1bea45673be442"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gab81ded0f9e3d4fcc7c1bea45673be442"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___game.html#gab81ded0f9e3d4fcc7c1bea45673be442">is_triggered</a> (<a class="el" href="group___game.html#gae1baa9f42256960b9f5b2161a808a3ac">control</a> pControls)</td></tr>
 <tr class="memdesc:gab81ded0f9e3d4fcc7c1bea45673be442"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if a control as been activated. <br /></td></tr>
@@ -227,6 +237,68 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="grou
 <p>Get delta (time between each frame). </p>
 <p>This can be used as a scale for movement or changes over time so then each frame is consistent.</p>
 <p>Ex. <code>set_position(my_entity, get_position(my_entity) + (move*speed*get_delta()));</code>` </p>
+
+</div>
+</div>
+<a class="anchor" id="gabd40ef8ad89fb40dfed4565cc1c6e760"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">ref get_shared </td>
+          <td>(</td>
+          <td class="paramtype">const string &amp;in&#160;</td>
+          <td class="paramname"><em>pName</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Retrieve handle of data. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pName</td><td>Name to refer to data with </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="group___game.html#ga51a59d9658d77baf66dc9e7d435cfbac" title="Store a handle globally so other scenes can receive it. ">make_shared</a> </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ga51a59d9658d77baf66dc9e7d435cfbac"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void make_shared </td>
+          <td>(</td>
+          <td class="paramtype">ref @&#160;</td>
+          <td class="paramname"><em>pData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const string &amp;in&#160;</td>
+          <td class="paramname"><em>pName</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Store a handle globally so other scenes can receive it. </p>
+<p>The data will have be a <a href="http://www.angelcode.com/angelscript/sdk/docs/manual/doc_script_shared.html">shared entity</a>.</p>
+<p>File 1: </p><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;{C++}</div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;shared class my_type</div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;{</div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;   int value;</div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;};</div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;</div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;[start]</div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;void share_the_data()</div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;{</div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;   my_type data;</div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;   data.value = 0;</div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;   make_shared(@data, &quot;mydata&quot;); // Share a handle to all scenes</div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;}</div></div><!-- fragment --><p>File 2: </p><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;{C++}</div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;shared class my_type</div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;{</div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;   int value;</div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;};</div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;</div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;[start]</div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;void print_value()</div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;{</div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;   // Retrieve the handle and cast it to the desired type.</div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;   my_type@ data = cast&lt;my_type&gt;(get_shared(&quot;mydata&quot;));</div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;   if (data is null) // Failed to retrieve data</div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;   {</div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;      eprint(&quot;Wrong value!&quot;);</div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;      return;</div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;   }</div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;   dprint(formatInt(data.value));</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;}</div></div><!-- fragment --> <dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pData</td><td>Handle of the object. </td></tr>
+    <tr><td class="paramname">pName</td><td>Name to refer to data with. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="group___game.html#gabd40ef8ad89fb40dfed4565cc1c6e760" title="Retrieve handle of data. ">get_shared</a> </dd></dl>
 
 </div>
 </div>

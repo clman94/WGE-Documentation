@@ -13,10 +13,13 @@ var group___game =
       [ "back", "group___game.html#ggae1baa9f42256960b9f5b2161a808a3acaa0cf137e48905c39b94f23a05b14e7c9", null ]
     ] ],
     [ "dprint", "group___game.html#gabadf68e0a0962940ddaf4bf6eea934fc", null ],
+    [ "eprint", "group___game.html#gaa5b6b5eff8f05ae9d38ca5a669e45e04", null ],
     [ "get_delta", "group___game.html#gaec56aeaa82b91deb06e88abb2ff54077", null ],
+    [ "get_shared", "group___game.html#gabd40ef8ad89fb40dfed4565cc1c6e760", null ],
     [ "get_slot", "group___game.html#ga7d68a5aedf9ffbec2184b1221f13c727", null ],
     [ "is_slot_used", "group___game.html#gaa836dec6bd6fe25797a2fb2684ad8f77", null ],
     [ "is_triggered", "group___game.html#gab81ded0f9e3d4fcc7c1bea45673be442", null ],
+    [ "make_shared", "group___game.html#ga51a59d9658d77baf66dc9e7d435cfbac", null ],
     [ "once_flag", "group___game.html#ga7cd0790408c74d0a690c2aaf410d6249", null ],
     [ "open_game", "group___game.html#ga14152c76479725f7adf67f60a09d1a4c", null ],
     [ "save_game", "group___game.html#ga080f5ef7e7f8a73a4e49e5ea040391c3", null ],
