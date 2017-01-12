@@ -16,6 +16,7 @@ var group___g_u_i =
       [ "create_cursor", "classgui_1_1basic__text__selection.html#a57eb3c71138bd6adf613347888f4c138", null ],
       [ "remove", "classgui_1_1basic__text__selection.html#a52712be48b5bb41a2ae26b5607218ca0", null ],
       [ "remove_all", "classgui_1_1basic__text__selection.html#a6142f85bd940220ab1f1beb0f9b709e9", null ],
+      [ "set_anchor", "classgui_1_1basic__text__selection.html#ab0d5aef914521f43b2f228b626bd333a", null ],
       [ "set_column_height", "classgui_1_1basic__text__selection.html#ae72a9626f1b20ab2ff680327b7b60810", null ],
       [ "set_position", "classgui_1_1basic__text__selection.html#a4659a61bbd45ef28eeb9b112bf92b3a5", null ],
       [ "set_seperation", "classgui_1_1basic__text__selection.html#a9391f0ebf4b643e94ce60847255757a3", null ],
@@ -34,7 +35,13 @@ var group___g_u_i =
       [ "menu_item", "classgui_1_1menu__item.html#a86a942063cf11154f9582da9f0ae46a4", null ],
       [ "is_selected", "classgui_1_1menu__item.html#a93a08bd46253a54cd3174e971eea4358", null ],
       [ "open", "classgui_1_1menu__item.html#a7ef40b85e1c94562295d58fc1bec2442", null ],
-      [ "opImplConv", "classgui_1_1menu__item.html#ab45a156ab99fd60f3cea9a32f66cb08a", null ]
+      [ "opImplConv", "classgui_1_1menu__item.html#ab45a156ab99fd60f3cea9a32f66cb08a", null ],
+      [ "mIs_selected", "classgui_1_1menu__item.html#a2c3c41022b4486c5986b3de15e5609cd", null ]
+    ] ],
+    [ "empty_menu_item", "classgui_1_1empty__menu__item.html", [
+      [ "empty_menu_item", "classgui_1_1empty__menu__item.html#a86d1f0b66efcb769ff9a75bb2ef6c51a", null ],
+      [ "empty_menu_item", "classgui_1_1empty__menu__item.html#a48ce1b97f8c7688b5b418d3078593e82", null ],
+      [ "open", "classgui_1_1empty__menu__item.html#a2ac32095af9325fa20c92c29311de29a", null ]
     ] ],
     [ "menu_function", "classgui_1_1menu__function.html", [
       [ "menu_function", "classgui_1_1menu__function.html#ad464aba9fa27f2b52390d53446ceb970", null ],

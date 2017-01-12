@@ -23,7 +23,9 @@ var group___entity =
       [ "manhattan", "classvec.html#a8a67e1ed829953a108b80be9a99ea0ab", null ],
       [ "normalize", "classvec.html#a2280063ca57c55a930a36ffab7bff194", null ],
       [ "rotate", "classvec.html#af4045231e16503a5411603f78895dac3", null ],
-      [ "rotate", "classvec.html#a7bc11998fb04ca36f03ba52145a5a0f1", null ]
+      [ "rotate", "classvec.html#a7bc11998fb04ca36f03ba52145a5a0f1", null ],
+      [ "x", "classvec.html#ad082bcfec22f0d1e9a8d3d3a9ed8aaa1", null ],
+      [ "y", "classvec.html#afe34f9686215c8d0a353e2f8e50c57e5", null ]
     ] ],
     [ "scoped_entity", "classscoped__entity.html", [
       [ "scoped_entity", "classscoped__entity.html#a9eb7014751702235e00de8d19d9346cf", null ],

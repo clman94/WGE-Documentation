@@ -46,7 +46,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
-      <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
       <li><a href="modules.html"><span>API</span></a></li>
       <li><a href="usergroup0.html"><span>Angelscript</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
@@ -121,9 +120,10 @@ Inheritance diagram for gui::menu:</div>
 <div class="dyncontent">
 <div class="center"><img src="classgui_1_1menu__inherit__graph.png" border="0" usemap="#gui_1_1menu_inherit__map" alt="Inheritance graph"/></div>
 <map name="gui_1_1menu_inherit__map" id="gui_1_1menu_inherit__map">
-<area shape="rect" id="node2" href="classgui_1_1menu__item.html" title="A menu item that is selected. " alt="" coords="15,80,126,107"/>
-<area shape="rect" id="node4" href="classgui_1_1selection__menu.html" title="Selection menu for a list of text. " alt="" coords="151,80,289,107"/>
-<area shape="rect" id="node3" href="classgui_1_1menu__function.html" title="Menu that calls a function when selected. " alt="" coords="5,155,136,181"/>
+<area shape="rect" id="node2" href="classgui_1_1menu__item.html" title="A menu item that is selected. " alt="" coords="110,80,221,107"/>
+<area shape="rect" id="node5" href="classgui_1_1selection__menu.html" title="Selection menu for a list of text. " alt="" coords="245,80,384,107"/>
+<area shape="rect" id="node3" href="classgui_1_1empty__menu__item.html" title="gui::empty_menu_item" alt="" coords="5,155,160,181"/>
+<area shape="rect" id="node4" href="classgui_1_1menu__function.html" title="Menu that calls a function when selected. " alt="" coords="184,155,315,181"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -168,7 +168,7 @@ string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cl
 </div><div class="memdoc">
 
 <p>Open the menu Return null if there has been no selection (like going back). </p>
-<p>The menu before it will have to handle it correctly: </p><div class="fragment"><div class="line">menu@ ret;</div><div class="line"><span class="keywordflow">do</span>{</div><div class="line">  <span class="comment">// Do its thing</span></div><div class="line">  ret = sub_menu.open();</div><div class="line">} <span class="keywordflow">while</span>(ret is null) <span class="comment">// Keep looping until an item is selected</span></div><div class="line">                     <span class="comment">// or this function returns null and then</span></div><div class="line">                     <span class="comment">// the caller before it will have to handle this.</span></div><div class="line"><span class="keywordflow">return</span> ret;</div></div><!-- fragment --> 
+<p>The menu before it will have to handle it correctly: </p><div class="fragment"><div class="line">menu@ ret;</div><div class="line"><span class="keywordflow">do</span>{</div><div class="line">  <span class="comment">// Do its thing</span></div><div class="line">  ret = sub_menu.open();</div><div class="line">} <span class="keywordflow">while</span>(ret is null) <span class="comment">// Keep looping until an item is selected</span></div><div class="line">                     <span class="comment">// or this function returns null and then</span></div><div class="line">                     <span class="comment">// the caller before it will have to handle this as well.</span></div><div class="line"><span class="keywordflow">return</span> ret;</div></div><!-- fragment --> 
 </div>
 </div>
 <a class="anchor" id="a1030db8478114db2210fb50795c3e14d"></a>

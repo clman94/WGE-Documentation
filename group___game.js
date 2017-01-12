@@ -10,7 +10,8 @@ var group___game =
       [ "select_previous", "group___game.html#ggae1baa9f42256960b9f5b2161a808a3acac49b7b0e3f51fe799d117ebcde60c5b2", null ],
       [ "select_up", "group___game.html#ggae1baa9f42256960b9f5b2161a808a3acad4866c78c3bb6a1d9f2725ebf65f4db2", null ],
       [ "select_down", "group___game.html#ggae1baa9f42256960b9f5b2161a808a3acaa569bca399144351cd6c1f2dfc8acda6", null ],
-      [ "back", "group___game.html#ggae1baa9f42256960b9f5b2161a808a3acaa0cf137e48905c39b94f23a05b14e7c9", null ]
+      [ "back", "group___game.html#ggae1baa9f42256960b9f5b2161a808a3acaa0cf137e48905c39b94f23a05b14e7c9", null ],
+      [ "menu", "group___game.html#ggae1baa9f42256960b9f5b2161a808a3acad6dc1651e46be5ab2415ae082f1f320b", null ]
     ] ],
     [ "dprint", "group___game.html#gabadf68e0a0962940ddaf4bf6eea934fc", null ],
     [ "eprint", "group___game.html#gaa5b6b5eff8f05ae9d38ca5a669e45e04", null ],

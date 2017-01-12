@@ -15,6 +15,5 @@ var searchData=
   ['get_5fselection',['get_selection',['../classgui_1_1selector__control.html#a4d6c54c56714308a69bbf41d4971919a',1,'gui::selector_control']]],
   ['get_5fshared',['get_shared',['../group___game.html#gabd40ef8ad89fb40dfed4565cc1c6e760',1,'internal.as']]],
   ['get_5fslot',['get_slot',['../group___game.html#ga7d68a5aedf9ffbec2184b1221f13c727',1,'internal.as']]],
-  ['gui',['GUI',['../group___g_u_i.html',1,'']]],
-  ['guides',['Guides',['../md_F:_Projects_Game_engine_project_Debug_data_internal_guides.html',1,'']]]
+  ['gui',['GUI',['../group___g_u_i.html',1,'']]]
 ];

@@ -22,6 +22,7 @@ var group___narrative =
     [ "set_dialog_sound", "group___narrative.html#ga69d8b00f560358e603cc2b7812a0c9c1", null ],
     [ "set_expression", "group___narrative.html#ga47048164ef974fc2f00234cfdb2d466f", null ],
     [ "set_interval", "group___narrative.html#ga6f2c04e7ae5cf2960eeb378b4c65fd14", null ],
+    [ "set_speaker", "group___narrative.html#ga9ee25fdc5055cd74a80c4430a98b5fe5", null ],
     [ "set_speed", "group___narrative.html#ga16ae10550940600414c039e14fbac0ca", null ],
     [ "show", "group___narrative.html#ga36cb17ab663581010b8ca5981cd6f07f", null ],
     [ "wait", "group___narrative.html#ga77511b1d5a03309ad82e1763bafbb408", null ]

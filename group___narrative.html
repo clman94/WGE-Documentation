@@ -46,7 +46,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
-      <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
       <li class="current"><a href="modules.html"><span>API</span></a></li>
       <li><a href="usergroup0.html"><span>Angelscript</span></a></li>
       <li><a href="annotated.html"><span>Classes</span></a></li>
@@ -133,6 +132,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="grou
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___narrative.html#ga9a828393a0923c9ba098fe096e127f3c">narrative::clear_speakers</a> ()</td></tr>
 <tr class="memdesc:ga9a828393a0923c9ba098fe096e127f3c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove all entities that are to "speak". <br /></td></tr>
 <tr class="separator:ga9a828393a0923c9ba098fe096e127f3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga9ee25fdc5055cd74a80c4430a98b5fe5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___narrative.html#ga9ee25fdc5055cd74a80c4430a98b5fe5">narrative::set_speaker</a> (<a class="el" href="classentity.html">entity</a> pEntity)</td></tr>
+<tr class="memdesc:ga9ee25fdc5055cd74a80c4430a98b5fe5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set a "single" entity whose animation will play when dialogue is appearing.  <a href="group___narrative.html#ga9ee25fdc5055cd74a80c4430a98b5fe5">More...</a><br /></td></tr>
+<tr class="separator:ga9ee25fdc5055cd74a80c4430a98b5fe5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga36cb17ab663581010b8ca5981cd6f07f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga36cb17ab663581010b8ca5981cd6f07f"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___narrative.html#ga36cb17ab663581010b8ca5981cd6f07f">narrative::show</a> ()</td></tr>
 <tr class="memdesc:ga36cb17ab663581010b8ca5981cd6f07f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Make the narrative show/reappear. <br /></td></tr>
@@ -418,6 +420,25 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="grou
 
 <p>Opens the selection textbox and allows user to choose between 2 options. </p>
 <p>NOTE: This might change very soon. </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="group___narrative.html#gad4778a9127d9fd843e312afd5d0ef3b5" title="Opens the selection textbox and allows user to choose between unlimited options. ">multiselect</a> </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ga9ee25fdc5055cd74a80c4430a98b5fe5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void narrative::set_speaker </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classentity.html">entity</a>&#160;</td>
+          <td class="paramname"><em>pEntity</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set a "single" entity whose animation will play when dialogue is appearing. </p>
+<p>All other speakers will be automatically cleared and replaced </p>
 
 </div>
 </div>
