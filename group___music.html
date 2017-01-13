@@ -117,6 +117,13 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="grou
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___music.html#gaddc10074b2b0dc54aca4c71fe77f1ee0">music::pause</a> ()</td></tr>
 <tr class="memdesc:gaddc10074b2b0dc54aca4c71fe77f1ee0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pause the song. <br /></td></tr>
 <tr class="separator:gaddc10074b2b0dc54aca4c71fe77f1ee0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga41b3209eb63788b860f010f1a7ae1fac"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___music.html#ga41b3209eb63788b860f010f1a7ae1fac">music::swap</a> (const string &amp;in pName)</td></tr>
+<tr class="memdesc:ga41b3209eb63788b860f010f1a7ae1fac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Seamlessly swap out music files.  <a href="group___music.html#ga41b3209eb63788b860f010f1a7ae1fac">More...</a><br /></td></tr>
+<tr class="separator:ga41b3209eb63788b860f010f1a7ae1fac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae197f502f6e192f9c37e18d8a1016c79"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gae197f502f6e192f9c37e18d8a1016c79"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___music.html#gae197f502f6e192f9c37e18d8a1016c79">music::fade</a> (const string &amp;in pName, float pSeconds, float pVolume=100)</td></tr>
+<tr class="memdesc:gae197f502f6e192f9c37e18d8a1016c79"><td class="mdescLeft">&#160;</td><td class="mdescRight">Smoothly fade to a new music. <br /></td></tr>
+<tr class="separator:gae197f502f6e192f9c37e18d8a1016c79"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gac2f97aad7e3a6897754740d69654df25"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gac2f97aad7e3a6897754740d69654df25"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___music.html#gac2f97aad7e3a6897754740d69654df25">music::playing</a> ()</td></tr>
 <tr class="memdesc:gac2f97aad7e3a6897754740d69654df25"><td class="mdescLeft">&#160;</td><td class="mdescRight">Is the song playing? <br /></td></tr>
@@ -132,10 +139,14 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="grou
 float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___music.html#ga1be36294259c9dd7e6889e9c21d116e9">music::duration</a> ()</td></tr>
 <tr class="memdesc:ga1be36294259c9dd7e6889e9c21d116e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get duration of music in seconds. <br /></td></tr>
 <tr class="separator:ga1be36294259c9dd7e6889e9c21d116e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gae8fe4826a2c34a35ecc8a8b640aaaec8"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gae8fe4826a2c34a35ecc8a8b640aaaec8"></a>
-float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___music.html#gae8fe4826a2c34a35ecc8a8b640aaaec8">music::position</a> ()</td></tr>
-<tr class="memdesc:gae8fe4826a2c34a35ecc8a8b640aaaec8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get current position of music in seconds. <br /></td></tr>
-<tr class="separator:gae8fe4826a2c34a35ecc8a8b640aaaec8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac482a4071ff109439d3d7df2626c04b6"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gac482a4071ff109439d3d7df2626c04b6"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___music.html#gac482a4071ff109439d3d7df2626c04b6">music::get_position</a> ()</td></tr>
+<tr class="memdesc:gac482a4071ff109439d3d7df2626c04b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get current position of music in seconds. <br /></td></tr>
+<tr class="separator:gac482a4071ff109439d3d7df2626c04b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad6fc060e8bd33cc1ba6e8abbcc7d8dae"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gad6fc060e8bd33cc1ba6e8abbcc7d8dae"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___music.html#gad6fc060e8bd33cc1ba6e8abbcc7d8dae">music::set_position</a> (float pSeconds)</td></tr>
+<tr class="memdesc:gad6fc060e8bd33cc1ba6e8abbcc7d8dae"><td class="mdescLeft">&#160;</td><td class="mdescRight">set the position of the music in seconds <br /></td></tr>
+<tr class="separator:gad6fc060e8bd33cc1ba6e8abbcc7d8dae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga9a780ed35bd6c20a11910c7aff668411"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___music.html#ga9a780ed35bd6c20a11910c7aff668411">music::open</a> (const string &amp;in pPath, bool pQuick=true)</td></tr>
 <tr class="memdesc:ga9a780ed35bd6c20a11910c7aff668411"><td class="mdescLeft">&#160;</td><td class="mdescRight">Open sound file.  <a href="group___music.html#ga9a780ed35bd6c20a11910c7aff668411">More...</a><br /></td></tr>
 <tr class="separator:ga9a780ed35bd6c20a11910c7aff668411"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -195,6 +206,25 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="grou
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a class="anchor" id="ga41b3209eb63788b860f010f1a7ae1fac"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void music::swap </td>
+          <td>(</td>
+          <td class="paramtype">const string &amp;in&#160;</td>
+          <td class="paramname"><em>pName</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Seamlessly swap out music files. </p>
+<p>This will maintain the current position of the music playing beforehand (Only if the new music is the same or longer in length). </p>
 
 </div>
 </div>

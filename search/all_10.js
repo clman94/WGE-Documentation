@@ -29,7 +29,7 @@ var searchData=
   ['set_5fitem_5fcount',['set_item_count',['../classgui_1_1selector__control.html#a47125d5922897fe06826a53e8da22934',1,'gui::selector_control']]],
   ['set_5fname',['set_name',['../group___entity.html#ga238dda11de6ef3c24e1b235f84c9a186',1,'internal.as']]],
   ['set_5fparent',['set_parent',['../group___entity.html#gab78de613373aff31c9c8233f5655c19d',1,'internal.as']]],
-  ['set_5fposition',['set_position',['../classgui_1_1selection__menu.html#a524d244b1e140b678393e7a711b4580d',1,'gui::selection_menu::set_position()'],['../group___entity.html#ga74951c479a9dcc3eef119a2e7ca8ae8b',1,'set_position():&#160;internal.as']]],
+  ['set_5fposition',['set_position',['../classgui_1_1selection__menu.html#a524d244b1e140b678393e7a711b4580d',1,'gui::selection_menu::set_position()'],['../group___entity.html#ga74951c479a9dcc3eef119a2e7ca8ae8b',1,'set_position():&#160;internal.as'],['../group___music.html#gad6fc060e8bd33cc1ba6e8abbcc7d8dae',1,'music::set_position()']]],
   ['set_5freturn',['set_return',['../classgui_1_1selection__menu.html#a0ca860abecd929678bf2895816ff9336',1,'gui::selection_menu']]],
   ['set_5frotation',['set_rotation',['../group___entity.html#ga6903f8ff25be8c6a1105eb9f3a4d0556',1,'internal.as']]],
   ['set_5fseperation',['set_seperation',['../classgui_1_1basic__text__selection.html#a9391f0ebf4b643e94ce60847255757a3',1,'gui::basic_text_selection']]],
@@ -48,5 +48,6 @@ var searchData=
   ['start_5fanimation',['start_animation',['../group___entity.html#gaafb3c572bee3bf55d57a0fa81c86caec',1,'internal.as']]],
   ['stop',['stop',['../group___music.html#gab612047aba6c32321fe402c3f9c9bf50',1,'music']]],
   ['stop_5fall',['stop_all',['../group___f_x.html#gac67c63fa8a70c1efb26b6f36499260df',1,'fx']]],
-  ['stop_5fanimation',['stop_animation',['../group___entity.html#gad22d02c8407c797814a24c83cd9b85d8',1,'internal.as']]]
+  ['stop_5fanimation',['stop_animation',['../group___entity.html#gad22d02c8407c797814a24c83cd9b85d8',1,'internal.as']]],
+  ['swap',['swap',['../group___music.html#ga41b3209eb63788b860f010f1a7ae1fac',1,'music']]]
 ];

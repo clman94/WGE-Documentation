@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['fade',['fade',['../group___music.html#gae197f502f6e192f9c37e18d8a1016c79',1,'music']]],
   ['fade_5fin',['fade_in',['../group___f_x.html#ga4984bb8b1f834b74c8d357a9736f1eab',1,'fade_in(float pSeconds=1):&#160;fx.as'],['../group___f_x.html#ga3bc632d1715b1dda7cf8f8448af73d35',1,'fade_in(entity pEntity, float pSeconds):&#160;fx.as']]],
   ['fade_5fout',['fade_out',['../group___f_x.html#gad0e70440ac4da58e72b5562aae15498c',1,'fade_out(float pSeconds=1):&#160;fx.as'],['../group___f_x.html#ga51a4db7fed94f93344501ad68c09399e',1,'fade_out(entity pEntity, float pSeconds):&#160;fx.as']]],
   ['fappend',['fappend',['../group___narrative.html#gad128ea1789da4897bffe5cb33c675401',1,'narrative.as']]],
