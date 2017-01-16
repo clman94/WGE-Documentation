@@ -8,7 +8,7 @@ var searchData=
   ['fixed_5fdepth',['fixed_depth',['../group___entity.html#ga6f81af99d6519c46f926bb52271b6748',1,'entity.as']]],
   ['fnewline',['fnewline',['../group___narrative.html#ga0c8ec1156507b340079703bd82610ed7',1,'narrative.as']]],
   ['fnl',['fnl',['../group___narrative.html#ga8af74111ca7e1b9f6aca3606bca21baf',1,'narrative.as']]],
-  ['focus',['focus',['../group___scene.html#ga3825391401a3cc8cd2953714924c2ec8',1,'player']]],
+  ['focus',['focus',['../group___player.html#ga3825391401a3cc8cd2953714924c2ec8',1,'player']]],
   ['follow_5fcharacter',['follow_character',['../classfollow__character.html',1,'']]],
   ['fsay',['fsay',['../group___narrative.html#ga0ceefce3ffa29febded8c2bf358df8da',1,'narrative.as']]],
   ['fx',['FX',['../group___f_x.html',1,'']]]

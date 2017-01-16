@@ -6,5 +6,6 @@ var modules =
     [ "Scene", "group___scene.html", "group___scene" ],
     [ "Game", "group___game.html", "group___game" ],
     [ "Music", "group___music.html", "group___music" ],
-    [ "Narrative", "group___narrative.html", "group___narrative" ]
+    [ "Narrative", "group___narrative.html", "group___narrative" ],
+    [ "Player", "group___player.html", "group___player" ]
 ];
