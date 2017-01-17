@@ -21,7 +21,6 @@ var group___game =
     [ "is_slot_used", "group___game.html#gaa836dec6bd6fe25797a2fb2684ad8f77", null ],
     [ "is_triggered", "group___game.html#gab81ded0f9e3d4fcc7c1bea45673be442", null ],
     [ "make_shared", "group___game.html#ga51a59d9658d77baf66dc9e7d435cfbac", null ],
-    [ "once_flag", "group___game.html#ga7cd0790408c74d0a690c2aaf410d6249", null ],
     [ "open_game", "group___game.html#ga14152c76479725f7adf67f60a09d1a4c", null ],
     [ "save_game", "group___game.html#ga080f5ef7e7f8a73a4e49e5ea040391c3", null ],
     [ "set_slot", "group___game.html#gad2e7c2359d512837aa1c7a49dbf2a667", null ]

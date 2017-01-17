@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>Wolf-Gang engine: API</title>
+<title>Wolf-Gang engine: Flags</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -79,7 +79,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('modules.html','');});
+$(document).ready(function(){initNavTree('group___flags.html','');});
 </script>
 <div id="doc-content">
 <!-- window showing the filter options -->
@@ -97,23 +97,57 @@ $(document).ready(function(){initNavTree('modules.html','');});
 </div>
 
 <div class="header">
+  <div class="summary">
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">API</div>  </div>
+<div class="title">Flags</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock">Here is a list of all modules:</div><div class="directory">
-<table class="directory">
-<tr id="row_0_" class="even"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><a class="el" href="group___entity.html" target="_self">Entity</a></td><td class="desc"></td></tr>
-<tr id="row_1_"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><a class="el" href="group___f_x.html" target="_self">FX</a></td><td class="desc"></td></tr>
-<tr id="row_2_" class="even"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><a class="el" href="group___g_u_i.html" target="_self">GUI</a></td><td class="desc"></td></tr>
-<tr id="row_3_"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><a class="el" href="group___scene.html" target="_self">Scene</a></td><td class="desc"></td></tr>
-<tr id="row_4_" class="even"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><a class="el" href="group___game.html" target="_self">Game</a></td><td class="desc"></td></tr>
-<tr id="row_5_"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><a class="el" href="group___flags.html" target="_self">Flags</a></td><td class="desc"></td></tr>
-<tr id="row_6_" class="even"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><a class="el" href="group___music.html" target="_self">Music</a></td><td class="desc"></td></tr>
-<tr id="row_7_"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><a class="el" href="group___narrative.html" target="_self">Narrative</a></td><td class="desc"></td></tr>
-<tr id="row_8_" class="even"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><a class="el" href="group___player.html" target="_self">Player</a></td><td class="desc"></td></tr>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:gabad3e186e2fc40b4561c89663632b4f3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gabad3e186e2fc40b4561c89663632b4f3"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___flags.html#gabad3e186e2fc40b4561c89663632b4f3">has_flag</a> (const string &amp;in pName)</td></tr>
+<tr class="memdesc:gabad3e186e2fc40b4561c89663632b4f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if flag exists. <br /></td></tr>
+<tr class="separator:gabad3e186e2fc40b4561c89663632b4f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga990593e42aa4638e44e6bb5a602da95b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga990593e42aa4638e44e6bb5a602da95b"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___flags.html#ga990593e42aa4638e44e6bb5a602da95b">set_flag</a> (const string &amp;in pName)</td></tr>
+<tr class="memdesc:ga990593e42aa4638e44e6bb5a602da95b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a new flag. Returns true if the flag already exists. <br /></td></tr>
+<tr class="separator:ga990593e42aa4638e44e6bb5a602da95b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa2e8d0a02cace308825be238e089eadf"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gaa2e8d0a02cace308825be238e089eadf"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___flags.html#gaa2e8d0a02cace308825be238e089eadf">unset_flag</a> (const string &amp;in pName)</td></tr>
+<tr class="memdesc:gaa2e8d0a02cace308825be238e089eadf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove a flag. Returns true if there was no flag to remove. <br /></td></tr>
+<tr class="separator:gaa2e8d0a02cace308825be238e089eadf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga152f1f899b18a315a77923a3869254c1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___flags.html#ga152f1f899b18a315a77923a3869254c1">once_flag</a> (const string &amp;in pName)</td></tr>
+<tr class="memdesc:ga152f1f899b18a315a77923a3869254c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Exit thread if flag exists otherwise create the flag and continue.  <a href="#ga152f1f899b18a315a77923a3869254c1">More...</a><br /></td></tr>
+<tr class="separator:ga152f1f899b18a315a77923a3869254c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-</div><!-- directory -->
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<h2 class="groupheader">Function Documentation</h2>
+<a class="anchor" id="ga152f1f899b18a315a77923a3869254c1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void once_flag </td>
+          <td>(</td>
+          <td class="paramtype">const string &amp;in&#160;</td>
+          <td class="paramname"><em>pName</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Exit thread if flag exists otherwise create the flag and continue. </p>
+<p>This is useful in situations when you do not want a trigger to be activated more than one time. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pFlag</td><td>Keyboard smash if you have no further use for it </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
