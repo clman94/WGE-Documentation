@@ -15,6 +15,7 @@ var searchData=
   ['move',['move',['../group___entity.html#gacf3c20077d1888291c918f0f4f7a4c1f',1,'move(entity pEntity, vec pTo, float pSeconds):&#160;entity.as'],['../group___entity.html#ga129d48ec60fd9af72bf98cc953831cc5',1,'move(entity pEntity, vec pTo, speed pSpeed):&#160;entity.as'],['../group___entity.html#gad4fa0f570bffde75068b5feec563f993',1,'move(entity pEntity, direction pDirection, float pDistance, float pSeconds):&#160;entity.as'],['../group___entity.html#ga912c3b03f004b41f74c7e04e2ee2c560',1,'move(entity pEntity, direction pDirection, float pDistance, speed pSpeed):&#160;entity.as']]],
   ['move_5fbox',['move_box',['../group___narrative.html#ga38487b9185f67a67756332dbe408a247',1,'narrative']]],
   ['move_5ffocus',['move_focus',['../group___entity.html#ga5c187eafa7439b1f15f011d7e90b0f27',1,'entity.as']]],
+  ['move_5ftowards',['move_towards',['../group___entity.html#ga0b731189e371109aa31dd08eaa59c0d2',1,'vector_tools.as']]],
   ['multiselect',['multiselect',['../group___narrative.html#gad4778a9127d9fd843e312afd5d0ef3b5',1,'narrative.as']]],
   ['music',['Music',['../group___music.html',1,'']]]
 ];

@@ -63,6 +63,7 @@ var group___entity =
     [ "move", "group___entity.html#gad4fa0f570bffde75068b5feec563f993", null ],
     [ "move", "group___entity.html#ga912c3b03f004b41f74c7e04e2ee2c560", null ],
     [ "move_focus", "group___entity.html#ga5c187eafa7439b1f15f011d7e90b0f27", null ],
+    [ "move_towards", "group___entity.html#ga0b731189e371109aa31dd08eaa59c0d2", null ],
     [ "pathfind_move", "group___entity.html#ga697b7f39a31241b81b7b318f375a1ad0", null ],
     [ "pixel", "group___entity.html#gac1b95e4bac4f668f5674f49d4471a063", null ],
     [ "pixel", "group___entity.html#gaa8605f6263345667680d372e7705288c", null ],
