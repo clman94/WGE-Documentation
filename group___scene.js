@@ -9,5 +9,6 @@ var group___scene =
     [ "remove_tile", "group___scene.html#ga64af696c5481174496d80592bdad4711", null ],
     [ "set_boundary_enable", "group___scene.html#ga87352d7ca27445461d3b42ba41db4dee", null ],
     [ "set_focus", "group___scene.html#ga0293fb599ee920eed1044082d948c67e", null ],
-    [ "set_tile", "group___scene.html#ga902641884ae5386599ae1a9772305299", null ]
+    [ "set_tile", "group___scene.html#ga902641884ae5386599ae1a9772305299", null ],
+    [ "set_wall_group_enabled", "group___scene.html#gacf5772d7c87e53fb0625598b4c55a74f", null ]
 ];
