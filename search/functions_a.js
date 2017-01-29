@@ -11,5 +11,6 @@ var searchData=
   ['move_5fbox',['move_box',['../group___narrative.html#ga38487b9185f67a67756332dbe408a247',1,'narrative']]],
   ['move_5ffocus',['move_focus',['../group___entity.html#ga5c187eafa7439b1f15f011d7e90b0f27',1,'entity.as']]],
   ['move_5ftowards',['move_towards',['../group___entity.html#ga0b731189e371109aa31dd08eaa59c0d2',1,'vector_tools.as']]],
+  ['move_5fz',['move_z',['../group___entity.html#gadd0ba3e805417380425d0b5bfd58aeed',1,'entity.as']]],
   ['multiselect',['multiselect',['../group___narrative.html#gad4778a9127d9fd843e312afd5d0ef3b5',1,'narrative.as']]]
 ];

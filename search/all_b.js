@@ -4,7 +4,7 @@ var searchData=
   ['make_5fshared',['make_shared',['../group___game.html#ga51a59d9658d77baf66dc9e7d435cfbac',1,'internal.as']]],
   ['manhattan',['manhattan',['../classvec.html#ac532321d9611935c6470bcf3089283f3',1,'vec::manhattan() const '],['../classvec.html#a8a67e1ed829953a108b80be9a99ea0ab',1,'vec::manhattan(const vec &amp;in pFrom) const ']]],
   ['menu',['menu',['../classgui_1_1menu.html',1,'gui']]],
-  ['menu',['menu',['../group___game.html#ggae1baa9f42256960b9f5b2161a808a3acad6dc1651e46be5ab2415ae082f1f320b',1,'scene.as']]],
+  ['menu',['menu',['../group___game.html#ggae1baa9f42256960b9f5b2161a808a3acad6dc1651e46be5ab2415ae082f1f320b',1,'game.as']]],
   ['menu_5fadded',['menu_added',['../classgui_1_1menu__branch.html#a7bd0343f309a7835584fdf5398e9c953',1,'gui::menu_branch']]],
   ['menu_5fbranch',['menu_branch',['../classgui_1_1menu__branch.html',1,'gui']]],
   ['menu_5ffunction',['menu_function',['../classgui_1_1menu__function.html',1,'gui']]],
@@ -16,6 +16,7 @@ var searchData=
   ['move_5fbox',['move_box',['../group___narrative.html#ga38487b9185f67a67756332dbe408a247',1,'narrative']]],
   ['move_5ffocus',['move_focus',['../group___entity.html#ga5c187eafa7439b1f15f011d7e90b0f27',1,'entity.as']]],
   ['move_5ftowards',['move_towards',['../group___entity.html#ga0b731189e371109aa31dd08eaa59c0d2',1,'vector_tools.as']]],
+  ['move_5fz',['move_z',['../group___entity.html#gadd0ba3e805417380425d0b5bfd58aeed',1,'entity.as']]],
   ['multiselect',['multiselect',['../group___narrative.html#gad4778a9127d9fd843e312afd5d0ef3b5',1,'narrative.as']]],
   ['music',['Music',['../group___music.html',1,'']]]
 ];

@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>Wolf-Gang engine: Flags</title>
+<title>Wolf-Gang engine: Groups</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -79,7 +79,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('group___flags.html','');});
+$(document).ready(function(){initNavTree('group___groups.html','');});
 </script>
 <div id="doc-content">
 <!-- window showing the filter options -->
@@ -100,54 +100,22 @@ $(document).ready(function(){initNavTree('group___flags.html','');});
   <div class="summary">
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">Flags</div>  </div>
+<div class="title">Groups</div>  </div>
 </div><!--header-->
 <div class="contents">
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ga152f1f899b18a315a77923a3869254c1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___flags.html#ga152f1f899b18a315a77923a3869254c1">once_flag</a> (const string &amp;in pName)</td></tr>
-<tr class="memdesc:ga152f1f899b18a315a77923a3869254c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Exit thread if flag exists otherwise create the flag and continue.  <a href="#ga152f1f899b18a315a77923a3869254c1">More...</a><br /></td></tr>
-<tr class="separator:ga152f1f899b18a315a77923a3869254c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gabad3e186e2fc40b4561c89663632b4f3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gabad3e186e2fc40b4561c89663632b4f3"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___flags.html#gabad3e186e2fc40b4561c89663632b4f3">has_flag</a> (const string &amp;in pName)</td></tr>
-<tr class="memdesc:gabad3e186e2fc40b4561c89663632b4f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if flag exists. <br /></td></tr>
-<tr class="separator:gabad3e186e2fc40b4561c89663632b4f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga990593e42aa4638e44e6bb5a602da95b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga990593e42aa4638e44e6bb5a602da95b"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___flags.html#ga990593e42aa4638e44e6bb5a602da95b">set_flag</a> (const string &amp;in pName)</td></tr>
-<tr class="memdesc:ga990593e42aa4638e44e6bb5a602da95b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a new flag. Returns true if the flag already exists. <br /></td></tr>
-<tr class="separator:ga990593e42aa4638e44e6bb5a602da95b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaa2e8d0a02cace308825be238e089eadf"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gaa2e8d0a02cace308825be238e089eadf"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___flags.html#gaa2e8d0a02cace308825be238e089eadf">unset_flag</a> (const string &amp;in pName)</td></tr>
-<tr class="memdesc:gaa2e8d0a02cace308825be238e089eadf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove a flag. Returns true if there was no flag to remove. <br /></td></tr>
-<tr class="separator:gaa2e8d0a02cace308825be238e089eadf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac7b689237efa30a1f4fd32fd3d1bf3ec"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gac7b689237efa30a1f4fd32fd3d1bf3ec"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___groups.html#gac7b689237efa30a1f4fd32fd3d1bf3ec">group::enable</a> (const string &amp;in pName, bool pIs_enabled)</td></tr>
+<tr class="memdesc:gac7b689237efa30a1f4fd32fd3d1bf3ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enable or disable all walls/triggers/buttons/doors in group. <br /></td></tr>
+<tr class="separator:gac7b689237efa30a1f4fd32fd3d1bf3ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga8a2cb21400dcdc868d0866225d9998c4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga8a2cb21400dcdc868d0866225d9998c4"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___groups.html#ga8a2cb21400dcdc868d0866225d9998c4">group::is_enabled</a> (const string &amp;in pName)</td></tr>
+<tr class="memdesc:ga8a2cb21400dcdc868d0866225d9998c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if group is enabled. <br /></td></tr>
+<tr class="separator:ga8a2cb21400dcdc868d0866225d9998c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<h2 class="groupheader">Function Documentation</h2>
-<a class="anchor" id="ga152f1f899b18a315a77923a3869254c1"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void once_flag </td>
-          <td>(</td>
-          <td class="paramtype">const string &amp;in&#160;</td>
-          <td class="paramname"><em>pName</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Exit thread if flag exists otherwise create the flag and continue. </p>
-<p>This is useful in situations when you do not want a trigger to be activated more than one time. </p><dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">pFlag</td><td>Keyboard smash if you have no further use for it </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

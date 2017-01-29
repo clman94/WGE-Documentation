@@ -198,6 +198,10 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="grou
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___entity.html#ga697b7f39a31241b81b7b318f375a1ad0">pathfind_move</a> (<a class="el" href="classentity.html">entity</a> pEntity, <a class="el" href="classvec.html">vec</a> pDestination, float pSpeed, float pWait_for_player=0)</td></tr>
 <tr class="memdesc:ga697b7f39a31241b81b7b318f375a1ad0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Use path-finding to move a character to a position. <br /></td></tr>
 <tr class="separator:ga697b7f39a31241b81b7b318f375a1ad0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gadd0ba3e805417380425d0b5bfd58aeed"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gadd0ba3e805417380425d0b5bfd58aeed"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___entity.html#gadd0ba3e805417380425d0b5bfd58aeed">move_z</a> (<a class="el" href="classentity.html">entity</a> pEntity, float pToZ, float pSpeed)</td></tr>
+<tr class="memdesc:gadd0ba3e805417380425d0b5bfd58aeed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move entity up or down at a specific speed. <br /></td></tr>
+<tr class="separator:gadd0ba3e805417380425d0b5bfd58aeed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gad693c5572b397fd19723dc850e5097b5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classentity.html">entity</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___entity.html#gad693c5572b397fd19723dc850e5097b5">add_entity</a> (const string &amp;in pTexture)</td></tr>
 <tr class="memdesc:gad693c5572b397fd19723dc850e5097b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a new sprite-based entity.  <a href="#gad693c5572b397fd19723dc850e5097b5">More...</a><br /></td></tr>
 <tr class="separator:gad693c5572b397fd19723dc850e5097b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -223,6 +227,13 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="grou
 <a class="el" href="classvec.html">vec</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___entity.html#ga837f908add31db3f92dd86196e344763">get_position</a> (<a class="el" href="classentity.html">entity</a> &amp;in pEntity)</td></tr>
 <tr class="memdesc:ga837f908add31db3f92dd86196e344763"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get position of entity. <br /></td></tr>
 <tr class="separator:ga837f908add31db3f92dd86196e344763"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga386e1fb74cd948839a152529daf4dec9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___entity.html#ga386e1fb74cd948839a152529daf4dec9">set_z</a> (<a class="el" href="classentity.html">entity</a> &amp;in pEntity, float pZ)</td></tr>
+<tr class="memdesc:ga386e1fb74cd948839a152529daf4dec9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the vertical position of an entity.  <a href="#ga386e1fb74cd948839a152529daf4dec9">More...</a><br /></td></tr>
+<tr class="separator:ga386e1fb74cd948839a152529daf4dec9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac7ba66e21fd2082fe18dcd5ceebcdef0"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gac7ba66e21fd2082fe18dcd5ceebcdef0"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___entity.html#gac7ba66e21fd2082fe18dcd5ceebcdef0">get_z</a> (<a class="el" href="classentity.html">entity</a> &amp;in pEntity)</td></tr>
+<tr class="memdesc:gac7ba66e21fd2082fe18dcd5ceebcdef0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get Z position of entity. <br /></td></tr>
+<tr class="separator:gac7ba66e21fd2082fe18dcd5ceebcdef0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga8f85bf0abe9ceb89fb911b1d5ba2bb8a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga8f85bf0abe9ceb89fb911b1d5ba2bb8a"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___entity.html#ga8f85bf0abe9ceb89fb911b1d5ba2bb8a">set_direction</a> (<a class="el" href="classentity.html">entity</a> &amp;in pEntity, direction pDirection)</td></tr>
 <tr class="memdesc:ga8f85bf0abe9ceb89fb911b1d5ba2bb8a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the direction of a character entity. <br /></td></tr>
@@ -756,6 +767,35 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="grou
 
 <p>Set the parent of entity. </p>
 <p>The child entity will "follow" the parent. </p>
+
+</div>
+</div>
+<a class="anchor" id="ga386e1fb74cd948839a152529daf4dec9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void set_z </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classentity.html">entity</a> &amp;in&#160;</td>
+          <td class="paramname"><em>pEntity</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>pZ</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set the vertical position of an entity. </p>
+<p>The entity retains its current position and its depth but the object that is displayed is move either up or down. Useful when you want a floating character or something similar. </p>
 
 </div>
 </div>

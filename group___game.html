@@ -122,12 +122,16 @@ Enumerations</h2></td></tr>
 <a class="el" href="group___game.html#ggae1baa9f42256960b9f5b2161a808a3acaa0cf137e48905c39b94f23a05b14e7c9">back</a>, 
 <a class="el" href="group___game.html#ggae1baa9f42256960b9f5b2161a808a3acad6dc1651e46be5ab2415ae082f1f320b">menu</a>
 <br />
- }<tr class="memdesc:gae1baa9f42256960b9f5b2161a808a3ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Basic control that is supported in the engine.  <a href="group___game.html#gae1baa9f42256960b9f5b2161a808a3ac">More...</a><br /></td></tr>
+ }<tr class="memdesc:gae1baa9f42256960b9f5b2161a808a3ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Basic controls that are supported in the engine.  <a href="group___game.html#gae1baa9f42256960b9f5b2161a808a3ac">More...</a><br /></td></tr>
 </td></tr>
 <tr class="separator:gae1baa9f42256960b9f5b2161a808a3ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:gab81ded0f9e3d4fcc7c1bea45673be442"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gab81ded0f9e3d4fcc7c1bea45673be442"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___game.html#gab81ded0f9e3d4fcc7c1bea45673be442">is_triggered</a> (<a class="el" href="group___game.html#gae1baa9f42256960b9f5b2161a808a3ac">control</a> pControls)</td></tr>
+<tr class="memdesc:gab81ded0f9e3d4fcc7c1bea45673be442"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if a control as been activated. <br /></td></tr>
+<tr class="separator:gab81ded0f9e3d4fcc7c1bea45673be442"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gabadf68e0a0962940ddaf4bf6eea934fc"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gabadf68e0a0962940ddaf4bf6eea934fc"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___game.html#gabadf68e0a0962940ddaf4bf6eea934fc">dprint</a> (const string &amp;in pMessage)</td></tr>
 <tr class="memdesc:gabadf68e0a0962940ddaf4bf6eea934fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print debug message. <br /></td></tr>
@@ -163,10 +167,6 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="grou
 <tr class="memitem:gabd40ef8ad89fb40dfed4565cc1c6e760"><td class="memItemLeft" align="right" valign="top">ref&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___game.html#gabd40ef8ad89fb40dfed4565cc1c6e760">get_shared</a> (const string &amp;in pName)</td></tr>
 <tr class="memdesc:gabd40ef8ad89fb40dfed4565cc1c6e760"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieve handle of data.  <a href="#gabd40ef8ad89fb40dfed4565cc1c6e760">More...</a><br /></td></tr>
 <tr class="separator:gabd40ef8ad89fb40dfed4565cc1c6e760"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gab81ded0f9e3d4fcc7c1bea45673be442"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gab81ded0f9e3d4fcc7c1bea45673be442"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___game.html#gab81ded0f9e3d4fcc7c1bea45673be442">is_triggered</a> (<a class="el" href="group___game.html#gae1baa9f42256960b9f5b2161a808a3ac">control</a> pControls)</td></tr>
-<tr class="memdesc:gab81ded0f9e3d4fcc7c1bea45673be442"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if a control as been activated. <br /></td></tr>
-<tr class="separator:gab81ded0f9e3d4fcc7c1bea45673be442"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <h2 class="groupheader">Enumeration Type Documentation</h2>
@@ -180,7 +180,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="grou
       </table>
 </div><div class="memdoc">
 
-<p>Basic control that is supported in the engine. </p>
+<p>Basic controls that are supported in the engine. </p>
 <p>There are 2 different types of controls: pressed and held. Pressed controls are only activated once in only one frame and in any other frame (even if it's still being held) it will not be considered activated. Held controls are simply always activated when the key is down. </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="group___game.html#gab81ded0f9e3d4fcc7c1bea45673be442" title="Check if a control as been activated. ">is_triggered</a> </dd></dl>
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a class="anchor" id="ggae1baa9f42256960b9f5b2161a808a3aca6ef3cb00ee126a8246ed3be5f8341285"></a>activate&#160;</td><td class="fielddoc">

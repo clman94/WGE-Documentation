@@ -56,6 +56,7 @@ var group___entity =
     [ "find_entity", "group___entity.html#ga3cb2f5042568498abc058056bf1b75d1", null ],
     [ "get_player", "group___entity.html#ga5c00732a4672f740007ef63c5e89fe59", null ],
     [ "get_position", "group___entity.html#ga837f908add31db3f92dd86196e344763", null ],
+    [ "get_z", "group___entity.html#gac7ba66e21fd2082fe18dcd5ceebcdef0", null ],
     [ "is_character", "group___entity.html#ga7b14d6a851003bba2300e7e3220f0d37", null ],
     [ "make_gui", "group___entity.html#ga14c3e44e0f47339956cc602d605ebaaa", null ],
     [ "move", "group___entity.html#gacf3c20077d1888291c918f0f4f7a4c1f", null ],
@@ -64,6 +65,7 @@ var group___entity =
     [ "move", "group___entity.html#ga912c3b03f004b41f74c7e04e2ee2c560", null ],
     [ "move_focus", "group___entity.html#ga5c187eafa7439b1f15f011d7e90b0f27", null ],
     [ "move_towards", "group___entity.html#ga0b731189e371109aa31dd08eaa59c0d2", null ],
+    [ "move_z", "group___entity.html#gadd0ba3e805417380425d0b5bfd58aeed", null ],
     [ "pathfind_move", "group___entity.html#ga697b7f39a31241b81b7b318f375a1ad0", null ],
     [ "pixel", "group___entity.html#gac1b95e4bac4f668f5674f49d4471a063", null ],
     [ "pixel", "group___entity.html#gaa8605f6263345667680d372e7705288c", null ],
@@ -85,6 +87,7 @@ var group___entity =
     [ "set_text", "group___entity.html#ga19c24278d9ef365e7891c39aede45fe7", null ],
     [ "set_texture", "group___entity.html#gafb3c13f7425057253e7b2e27f7c5bd3f", null ],
     [ "set_visible", "group___entity.html#ga72f2f077ef9865b563afecc787ccdac1", null ],
+    [ "set_z", "group___entity.html#ga386e1fb74cd948839a152529daf4dec9", null ],
     [ "start_animation", "group___entity.html#gaafb3c572bee3bf55d57a0fa81c86caec", null ],
     [ "stop_animation", "group___entity.html#gad22d02c8407c797814a24c83cd9b85d8", null ],
     [ "vector_direction", "group___entity.html#ga1341ba25927bdd241ce65f02e1fb19cc", null ]
