@@ -35,7 +35,6 @@ var searchData=
   ['set_5ftexture',['set_texture',['../group___entity.html#gafb3c13f7425057253e7b2e27f7c5bd3f',1,'internal.as']]],
   ['set_5ftile',['set_tile',['../group___scene.html#ga902641884ae5386599ae1a9772305299',1,'internal.as']]],
   ['set_5fvisible',['set_visible',['../group___entity.html#ga72f2f077ef9865b563afecc787ccdac1',1,'internal.as']]],
-  ['set_5fwall_5fgroup_5fenabled',['set_wall_group_enabled',['../group___scene.html#gacf5772d7c87e53fb0625598b4c55a74f',1,'internal.as']]],
   ['set_5fz',['set_z',['../group___entity.html#ga386e1fb74cd948839a152529daf4dec9',1,'internal.as']]],
   ['shake',['shake',['../group___f_x.html#ga4d52a59490c04b7e2893ea9beb698ec8',1,'fx']]],
   ['show',['show',['../group___narrative.html#ga36cb17ab663581010b8ca5981cd6f07f',1,'narrative']]],

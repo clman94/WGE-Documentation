@@ -9,7 +9,6 @@ var NAVTREEINDEX1 =
 "group___scene.html#ga64af696c5481174496d80592bdad4711":[0,6,4],
 "group___scene.html#ga87352d7ca27445461d3b42ba41db4dee":[0,6,5],
 "group___scene.html#ga902641884ae5386599ae1a9772305299":[0,6,9],
-"group___scene.html#gacf5772d7c87e53fb0625598b4c55a74f":[0,6,10],
 "group___scene.html#gad88d0cf754ce1db5073477a33bd84030":[0,6,7],
 "hierarchy.html":[2,2],
 "index.html":[],

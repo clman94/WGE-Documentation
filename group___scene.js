@@ -9,6 +9,5 @@ var group___scene =
     [ "set_boundary_position", "group___scene.html#ga200d18bf11429b3d88298bd813dd6ec1", null ],
     [ "set_boundary_size", "group___scene.html#gad88d0cf754ce1db5073477a33bd84030", null ],
     [ "set_focus", "group___scene.html#ga0293fb599ee920eed1044082d948c67e", null ],
-    [ "set_tile", "group___scene.html#ga902641884ae5386599ae1a9772305299", null ],
-    [ "set_wall_group_enabled", "group___scene.html#gacf5772d7c87e53fb0625598b4c55a74f", null ]
+    [ "set_tile", "group___scene.html#ga902641884ae5386599ae1a9772305299", null ]
 ];
