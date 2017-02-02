@@ -141,8 +141,14 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="grou
 <tr class="memdesc:ga87352d7ca27445461d3b42ba41db4dee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set whether or not the boundary is used. <br /></td></tr>
 <tr class="separator:ga87352d7ca27445461d3b42ba41db4dee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga0793f1e30b0988fca0566ba4c0cad655"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___scene.html#ga0793f1e30b0988fca0566ba4c0cad655">load_scene</a> (const string &amp;in pPath)</td></tr>
-<tr class="memdesc:ga0793f1e30b0988fca0566ba4c0cad655"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load scene from file.  <a href="#ga0793f1e30b0988fca0566ba4c0cad655">More...</a><br /></td></tr>
+<tr class="memdesc:ga0793f1e30b0988fca0566ba4c0cad655"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load scene.  <a href="#ga0793f1e30b0988fca0566ba4c0cad655">More...</a><br /></td></tr>
 <tr class="separator:ga0793f1e30b0988fca0566ba4c0cad655"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga5933f2188990b571c051ae5297d2955e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___scene.html#ga5933f2188990b571c051ae5297d2955e">load_scene</a> (const string &amp;in pPath, const string &amp;in pDoor)</td></tr>
+<tr class="memdesc:ga5933f2188990b571c051ae5297d2955e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load scene and move player to door.  <a href="#ga5933f2188990b571c051ae5297d2955e">More...</a><br /></td></tr>
+<tr class="separator:ga5933f2188990b571c051ae5297d2955e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae47b4dd9498bd356de28e3d7d110d8ce"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___scene.html#gae47b4dd9498bd356de28e3d7d110d8ce">load_scene</a> (const string &amp;in pPath, <a class="el" href="classvec.html">vec</a> pPosition)</td></tr>
+<tr class="memdesc:gae47b4dd9498bd356de28e3d7d110d8ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load scene and nove player to position.  <a href="#gae47b4dd9498bd356de28e3d7d110d8ce">More...</a><br /></td></tr>
+<tr class="separator:gae47b4dd9498bd356de28e3d7d110d8ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <h2 class="groupheader">Function Documentation</h2>
@@ -160,7 +166,75 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="grou
       </table>
 </div><div class="memdoc">
 
-<p>Load scene from file. </p>
+<p>Load scene. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pPath</td><td>Path to XML file </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="ga5933f2188990b571c051ae5297d2955e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void load_scene </td>
+          <td>(</td>
+          <td class="paramtype">const string &amp;in&#160;</td>
+          <td class="paramname"><em>pPath</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const string &amp;in&#160;</td>
+          <td class="paramname"><em>pDoor</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Load scene and move player to door. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pPath</td><td>Path to XML file </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="gae47b4dd9498bd356de28e3d7d110d8ce"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void load_scene </td>
+          <td>(</td>
+          <td class="paramtype">const string &amp;in&#160;</td>
+          <td class="paramname"><em>pPath</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classvec.html">vec</a>&#160;</td>
+          <td class="paramname"><em>pPosition</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Load scene and nove player to position. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">pPath</td><td>Path to XML file </td></tr>
