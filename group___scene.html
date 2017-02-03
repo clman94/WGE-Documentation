@@ -106,13 +106,21 @@ $(document).ready(function(){initNavTree('group___scene.html','');});
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ga0293fb599ee920eed1044082d948c67e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___scene.html#ga0293fb599ee920eed1044082d948c67e">set_focus</a> (<a class="el" href="classvec.html">vec</a> pPosition)</td></tr>
-<tr class="memdesc:ga0293fb599ee920eed1044082d948c67e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set location for camera to focus on.  <a href="#ga0293fb599ee920eed1044082d948c67e">More...</a><br /></td></tr>
-<tr class="separator:ga0293fb599ee920eed1044082d948c67e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga3b2bcf249a6fcdfd57c6616f4c6a23fc"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga3b2bcf249a6fcdfd57c6616f4c6a23fc"></a>
-<a class="el" href="classvec.html">vec</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___scene.html#ga3b2bcf249a6fcdfd57c6616f4c6a23fc">get_focus</a> ()</td></tr>
-<tr class="memdesc:ga3b2bcf249a6fcdfd57c6616f4c6a23fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get focus of camera. <br /></td></tr>
-<tr class="separator:ga3b2bcf249a6fcdfd57c6616f4c6a23fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga41c19e952b868c84d9f6cf8a2f1b96c2"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga41c19e952b868c84d9f6cf8a2f1b96c2"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___scene.html#ga41c19e952b868c84d9f6cf8a2f1b96c2">focus::move</a> (<a class="el" href="classvec.html">vec</a> pPosition, float pSeconds)</td></tr>
+<tr class="memdesc:ga41c19e952b868c84d9f6cf8a2f1b96c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gradually move focus point to position in x seconds. <br /></td></tr>
+<tr class="separator:ga41c19e952b868c84d9f6cf8a2f1b96c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga709279e442dd3355bafb984d9dec84ec"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___scene.html#ga709279e442dd3355bafb984d9dec84ec">focus::set</a> (<a class="el" href="classvec.html">vec</a> pPosition)</td></tr>
+<tr class="memdesc:ga709279e442dd3355bafb984d9dec84ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set position of focus Set location for camera to focus on.  <a href="group___scene.html#ga709279e442dd3355bafb984d9dec84ec">More...</a><br /></td></tr>
+<tr class="separator:ga709279e442dd3355bafb984d9dec84ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga4f15c4139925c8cf83b8e26cf6ad9e9c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga4f15c4139925c8cf83b8e26cf6ad9e9c"></a>
+<a class="el" href="classvec.html">vec</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___scene.html#ga4f15c4139925c8cf83b8e26cf6ad9e9c">focus::get</a> ()</td></tr>
+<tr class="memdesc:ga4f15c4139925c8cf83b8e26cf6ad9e9c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get position of focus. <br /></td></tr>
+<tr class="separator:ga4f15c4139925c8cf83b8e26cf6ad9e9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga97195ac4b9917eb7264dab1329a5b4c9"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga97195ac4b9917eb7264dab1329a5b4c9"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___scene.html#ga97195ac4b9917eb7264dab1329a5b4c9">focus::player</a> (bool pFocus_player)</td></tr>
+<tr class="memdesc:ga97195ac4b9917eb7264dab1329a5b4c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Focus on player. <br /></td></tr>
+<tr class="separator:ga97195ac4b9917eb7264dab1329a5b4c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga902641884ae5386599ae1a9772305299"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___scene.html#ga902641884ae5386599ae1a9772305299">set_tile</a> (const string &amp;in pAtlas, <a class="el" href="classvec.html">vec</a> pPosition, int pLayer, int pRotation)</td></tr>
 <tr class="memdesc:ga902641884ae5386599ae1a9772305299"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set a tile in the tilemap.  <a href="#ga902641884ae5386599ae1a9772305299">More...</a><br /></td></tr>
 <tr class="separator:ga902641884ae5386599ae1a9772305299"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -147,7 +155,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="grou
 <tr class="memdesc:ga5933f2188990b571c051ae5297d2955e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load scene and move player to door.  <a href="#ga5933f2188990b571c051ae5297d2955e">More...</a><br /></td></tr>
 <tr class="separator:ga5933f2188990b571c051ae5297d2955e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gae47b4dd9498bd356de28e3d7d110d8ce"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___scene.html#gae47b4dd9498bd356de28e3d7d110d8ce">load_scene</a> (const string &amp;in pPath, <a class="el" href="classvec.html">vec</a> pPosition)</td></tr>
-<tr class="memdesc:gae47b4dd9498bd356de28e3d7d110d8ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load scene and nove player to position.  <a href="#gae47b4dd9498bd356de28e3d7d110d8ce">More...</a><br /></td></tr>
+<tr class="memdesc:gae47b4dd9498bd356de28e3d7d110d8ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load scene and move player to position.  <a href="#gae47b4dd9498bd356de28e3d7d110d8ce">More...</a><br /></td></tr>
 <tr class="separator:gae47b4dd9498bd356de28e3d7d110d8ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -234,7 +242,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="grou
       </table>
 </div><div class="memdoc">
 
-<p>Load scene and nove player to position. </p>
+<p>Load scene and move player to position. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">pPath</td><td>Path to XML file </td></tr>
@@ -244,12 +252,12 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="grou
 
 </div>
 </div>
-<a class="anchor" id="ga0293fb599ee920eed1044082d948c67e"></a>
+<a class="anchor" id="ga709279e442dd3355bafb984d9dec84ec"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void set_focus </td>
+          <td class="memname">void focus::set </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classvec.html">vec</a>&#160;</td>
           <td class="paramname"><em>pPosition</em></td><td>)</td>
@@ -258,8 +266,8 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="grou
       </table>
 </div><div class="memdoc">
 
-<p>Set location for camera to focus on. </p>
-<p>The camera will automatically stay within the boundaries of the scene. Automatically sets player::focus to false. </p>
+<p>Set position of focus Set location for camera to focus on. </p>
+<p>The camera will automatically stay within the boundaries of the scene. Player will lose focus when called. </p>
 
 </div>
 </div>

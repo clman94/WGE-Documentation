@@ -7,6 +7,5 @@ var searchData=
   ['find_5fentity',['find_entity',['../group___entity.html#ga3cb2f5042568498abc058056bf1b75d1',1,'internal.as']]],
   ['fnewline',['fnewline',['../group___narrative.html#ga0c8ec1156507b340079703bd82610ed7',1,'narrative.as']]],
   ['fnl',['fnl',['../group___narrative.html#ga8af74111ca7e1b9f6aca3606bca21baf',1,'narrative.as']]],
-  ['focus',['focus',['../group___player.html#ga3825391401a3cc8cd2953714924c2ec8',1,'player']]],
   ['fsay',['fsay',['../group___narrative.html#ga0ceefce3ffa29febded8c2bf358df8da',1,'narrative.as']]]
 ];
