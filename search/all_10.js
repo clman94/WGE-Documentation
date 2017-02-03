@@ -13,7 +13,7 @@ var searchData=
   ['selector_5fcontrol',['selector_control',['../classgui_1_1selector__control.html',1,'gui']]],
   ['set',['set',['../classscoped__entity.html#a8a1797309b46c9a8f681f0457d519676',1,'scoped_entity']]],
   ['set_5fanchor',['set_anchor',['../group___entity.html#gab31ad677c1f6f2bc4f39c7be286ea184',1,'entity.as']]],
-  ['set_5fanimation',['set_animation',['../group___entity.html#gafddbb1120319d9951199d42f2c33a244',1,'internal.as']]],
+  ['set_5fatlas',['set_atlas',['../group___entity.html#ga2d449a0b4a2aee7a0a95e999dc30ed9d',1,'internal.as']]],
   ['set_5fboundary_5fenable',['set_boundary_enable',['../group___scene.html#ga87352d7ca27445461d3b42ba41db4dee',1,'internal.as']]],
   ['set_5fboundary_5fposition',['set_boundary_position',['../group___scene.html#ga200d18bf11429b3d88298bd813dd6ec1',1,'internal.as']]],
   ['set_5fboundary_5fsize',['set_boundary_size',['../group___scene.html#gad88d0cf754ce1db5073477a33bd84030',1,'internal.as']]],

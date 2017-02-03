@@ -71,7 +71,7 @@ var group___entity =
     [ "pixel", "group___entity.html#gaa8605f6263345667680d372e7705288c", null ],
     [ "remove_entity", "group___entity.html#gab3759bdbb03d2c25909fcb60d35a3ffd", null ],
     [ "set_anchor", "group___entity.html#gab31ad677c1f6f2bc4f39c7be286ea184", null ],
-    [ "set_animation", "group___entity.html#gafddbb1120319d9951199d42f2c33a244", null ],
+    [ "set_atlas", "group___entity.html#ga2d449a0b4a2aee7a0a95e999dc30ed9d", null ],
     [ "set_color", "group___entity.html#gaf65575bc121f273926d50b2e3fbf989a", null ],
     [ "set_color", "group___entity.html#ga3262904842890a06c1671ceaf4342803", null ],
     [ "set_cycle", "group___entity.html#ga3daca142b4362cf921a84aee1d3be9f7", null ],
