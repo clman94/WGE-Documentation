@@ -1,8 +1,7 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classgui_1_1menu.html" title="Base for a menu. " alt="" coords="29,31,107,57"/>
-<area shape="rect" id="node2" href="$classgui_1_1menu__item.html" title="A menu item that is selected. " alt="" coords="193,31,303,57"/>
-<area shape="rect" id="node5" href="$classgui_1_1selection__menu.html" title="Selection menu for a list of text. " alt="" coords="179,81,317,108"/>
-<area shape="rect" id="node3" href="$classgui_1_1empty__menu__item.html" title="gui::empty_menu_item" alt="" coords="365,5,520,32"/>
-<area shape="rect" id="node4" href="$classgui_1_1menu__function.html" title="Menu that calls a function when selected. " alt="" coords="377,56,508,83"/>
-<area shape="rect" id="node6" href="$classgui_1_1menu__branch.html" title="Mixin for creating branches. " alt="" coords="5,81,131,108"/>
+<area shape="rect" id="node1" href="$classgui_1_1menu__branch.html" title="Mixin for creating branches. " alt="" coords="5,5,131,32"/>
+<area shape="rect" id="node2" href="$classgui_1_1selection__menu.html" title="Selection menu for a list of text. " alt="" coords="187,5,325,32"/>
+<area shape="rect" id="node3" href="$classgui_1_1menu__item.html" title="Base for a menu. " alt="" coords="13,56,123,83"/>
+<area shape="rect" id="node4" href="$classgui_1_1empty__menu__item.html" title="gui::empty_menu_item" alt="" coords="179,56,333,83"/>
+<area shape="rect" id="node5" href="$classgui_1_1menu__function.html" title="Menu that calls a function when selected. " alt="" coords="191,107,321,133"/>
 </map>

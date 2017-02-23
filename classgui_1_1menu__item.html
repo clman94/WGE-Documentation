@@ -114,24 +114,16 @@ $(document).ready(function(){initNavTree('classgui_1_1menu__item.html','');});
 </div><!--header-->
 <div class="contents">
 
-<p>A menu item that is selected.  
+<p>Base for a menu.  
  <a href="classgui_1_1menu__item.html#details">More...</a></p>
 <div class="dynheader">
 Inheritance diagram for gui::menu_item:</div>
 <div class="dyncontent">
 <div class="center"><img src="classgui_1_1menu__item__inherit__graph.png" border="0" usemap="#gui_1_1menu__item_inherit__map" alt="Inheritance graph"/></div>
 <map name="gui_1_1menu__item_inherit__map" id="gui_1_1menu__item_inherit__map">
-<area shape="rect" id="node3" href="classgui_1_1empty__menu__item.html" title="gui::empty_menu_item" alt="" coords="5,155,160,181"/>
-<area shape="rect" id="node4" href="classgui_1_1menu__function.html" title="Menu that calls a function when selected. " alt="" coords="184,155,315,181"/>
-<area shape="rect" id="node2" href="classgui_1_1menu.html" title="Base for a menu. " alt="" coords="126,5,205,32"/>
-</map>
-<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
-<div class="dynheader">
-Collaboration diagram for gui::menu_item:</div>
-<div class="dyncontent">
-<div class="center"><img src="classgui_1_1menu__item__coll__graph.png" border="0" usemap="#gui_1_1menu__item_coll__map" alt="Collaboration graph"/></div>
-<map name="gui_1_1menu__item_coll__map" id="gui_1_1menu__item_coll__map">
-<area shape="rect" id="node2" href="classgui_1_1menu.html" title="Base for a menu. " alt="" coords="21,5,100,32"/>
+<area shape="rect" id="node2" href="classgui_1_1empty__menu__item.html" title="gui::empty_menu_item" alt="" coords="5,80,160,107"/>
+<area shape="rect" id="node3" href="classgui_1_1menu__function.html" title="Menu that calls a function when selected. " alt="" coords="184,80,315,107"/>
+<area shape="rect" id="node4" href="classgui_1_1selection__menu.html" title="Selection menu for a list of text. " alt="" coords="339,80,477,107"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -140,9 +132,16 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a86a942063cf11154f9582da9f0ae46a4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a86a942063cf11154f9582da9f0ae46a4"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>menu_item</b> (const string &amp;in pId)</td></tr>
 <tr class="separator:a86a942063cf11154f9582da9f0ae46a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7ef40b85e1c94562295d58fc1bec2442"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7ef40b85e1c94562295d58fc1bec2442"></a>
-<a class="el" href="classgui_1_1menu.html">menu</a>&#160;</td><td class="memItemRight" valign="bottom"><b>open</b> ()</td></tr>
-<tr class="separator:a7ef40b85e1c94562295d58fc1bec2442"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9fbbc98726f28f9b9f37eac80b037d08"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classgui_1_1menu__item.html">menu_item</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgui_1_1menu__item.html#a9fbbc98726f28f9b9f37eac80b037d08">open</a> ()</td></tr>
+<tr class="memdesc:a9fbbc98726f28f9b9f37eac80b037d08"><td class="mdescLeft">&#160;</td><td class="mdescRight">Open the menu Return null if there has been no selection (like going back).  <a href="#a9fbbc98726f28f9b9f37eac80b037d08">More...</a><br /></td></tr>
+<tr class="separator:a9fbbc98726f28f9b9f37eac80b037d08"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a45e0ec5aba95e058afb1bfb7ac46e12f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a45e0ec5aba95e058afb1bfb7ac46e12f"></a>
+const string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgui_1_1menu__item.html#a45e0ec5aba95e058afb1bfb7ac46e12f">get_id</a> () const </td></tr>
+<tr class="memdesc:a45e0ec5aba95e058afb1bfb7ac46e12f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get identification of menu. <br /></td></tr>
+<tr class="separator:a45e0ec5aba95e058afb1bfb7ac46e12f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a327c7714e39a533207d256f3b63d206e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgui_1_1menu__item.html#a327c7714e39a533207d256f3b63d206e">set_id</a> (const string &amp;in pId)</td></tr>
+<tr class="memdesc:a327c7714e39a533207d256f3b63d206e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set identification This string is usually used in the <a class="el" href="classgui_1_1selection__menu.html" title="Selection menu for a list of text. ">selection_menu</a> for the text.  <a href="#a327c7714e39a533207d256f3b63d206e">More...</a><br /></td></tr>
+<tr class="separator:a327c7714e39a533207d256f3b63d206e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a93a08bd46253a54cd3174e971eea4358"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a93a08bd46253a54cd3174e971eea4358"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgui_1_1menu__item.html#a93a08bd46253a54cd3174e971eea4358">is_selected</a> () const </td></tr>
 <tr class="memdesc:a93a08bd46253a54cd3174e971eea4358"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if this menu has been selected. <br /></td></tr>
@@ -158,8 +157,60 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>mIs_selected</b></td>
 <tr class="separator:a2c3c41022b4486c5986b3de15e5609cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>A menu item that is selected. </p>
-</div><hr/>The documentation for this class was generated from the following file:<ul>
+<div class="textblock"><p>Base for a menu. </p>
+</div><h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a9fbbc98726f28f9b9f37eac80b037d08"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classgui_1_1menu__item.html">menu_item</a> gui::menu_item::open </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Open the menu Return null if there has been no selection (like going back). </p>
+<p>The menu before it will have to handle it correctly: </p><div class="fragment"><div class="line"><a class="code" href="group___game.html#ggae1baa9f42256960b9f5b2161a808a3acad6dc1651e46be5ab2415ae082f1f320b">menu</a>@ ret;</div><div class="line"><span class="keywordflow">do</span>{</div><div class="line">  <span class="comment">// Do its thing</span></div><div class="line">  ret = sub_menu.open();</div><div class="line">} <span class="keywordflow">while</span>(ret is null) <span class="comment">// Keep looping until an item is selected</span></div><div class="line">                     <span class="comment">// or this function returns null and then</span></div><div class="line">                     <span class="comment">// the caller before it will have to handle this as well.</span></div><div class="line"><span class="keywordflow">return</span> ret;</div></div><!-- fragment --> 
+</div>
+</div>
+<a class="anchor" id="a327c7714e39a533207d256f3b63d206e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void gui::menu_item::set_id </td>
+          <td>(</td>
+          <td class="paramtype">const string &amp;in&#160;</td>
+          <td class="paramname"><em>pId</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set identification This string is usually used in the <a class="el" href="classgui_1_1selection__menu.html" title="Selection menu for a list of text. ">selection_menu</a> for the text. </p>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
 <li>gui.as</li>
 </ul>
 </div><!-- contents -->

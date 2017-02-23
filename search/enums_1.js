@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['box',['box',['../group___narrative.html#gaf353ef2d39987f753579a462143b156e',1,'narrative']]]
+  ['control',['control',['../group___game.html#gae1baa9f42256960b9f5b2161a808a3ac',1,'game.as']]]
 ];

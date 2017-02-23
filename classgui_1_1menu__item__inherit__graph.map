@@ -1,5 +1,5 @@
 <map id="gui::menu_item" name="gui::menu_item">
-<area shape="rect" id="node3" href="$classgui_1_1empty__menu__item.html" title="gui::empty_menu_item" alt="" coords="5,155,160,181"/>
-<area shape="rect" id="node4" href="$classgui_1_1menu__function.html" title="Menu that calls a function when selected. " alt="" coords="184,155,315,181"/>
-<area shape="rect" id="node2" href="$classgui_1_1menu.html" title="Base for a menu. " alt="" coords="126,5,205,32"/>
+<area shape="rect" id="node2" href="$classgui_1_1empty__menu__item.html" title="gui::empty_menu_item" alt="" coords="5,80,160,107"/>
+<area shape="rect" id="node3" href="$classgui_1_1menu__function.html" title="Menu that calls a function when selected. " alt="" coords="184,80,315,107"/>
+<area shape="rect" id="node4" href="$classgui_1_1selection__menu.html" title="Selection menu for a list of text. " alt="" coords="339,80,477,107"/>
 </map>

@@ -12,7 +12,9 @@ var group___entity =
       [ "start", "classfollow__character.html#a70d8dd616012479a4bf72491757a5efa", null ],
       [ "stop", "classfollow__character.html#a5aada1290009e4cdee87aa5029c0be3c", null ]
     ] ],
-    [ "entity", "classentity.html", null ],
+    [ "entity", "classentity.html", [
+      [ "is_valid", "classentity.html#af574089cc7a1467782baf92a172f14b2", null ]
+    ] ],
     [ "vec", "classvec.html", [
       [ "vec", "classvec.html#ac6dcb6284ea28bf4b110613887f763cf", null ],
       [ "vec", "classvec.html#ace186f5130c16b57223357831e55ee34", null ],
@@ -53,9 +55,9 @@ var group___entity =
     [ "add_text", "group___entity.html#gab550ff3fedfed6a13aa7f8d670db1095", null ],
     [ "detach_children", "group___entity.html#ga117504f4bb122e990b86a79ea0d8b0aa", null ],
     [ "detach_parent", "group___entity.html#gae5cfd3aa605a34056dced3ab63b82396", null ],
-    [ "find_entity", "group___entity.html#ga3cb2f5042568498abc058056bf1b75d1", null ],
     [ "get_player", "group___entity.html#ga5c00732a4672f740007ef63c5e89fe59", null ],
     [ "get_position", "group___entity.html#ga837f908add31db3f92dd86196e344763", null ],
+    [ "get_size", "group___entity.html#ga8745526cab75fe647f2089219bc2fac6", null ],
     [ "get_z", "group___entity.html#gac7ba66e21fd2082fe18dcd5ceebcdef0", null ],
     [ "is_character", "group___entity.html#ga7b14d6a851003bba2300e7e3220f0d37", null ],
     [ "make_gui", "group___entity.html#ga14c3e44e0f47339956cc602d605ebaaa", null ],
@@ -79,7 +81,6 @@ var group___entity =
     [ "set_depth_fixed", "group___entity.html#gae3450bc4a3c7915728b8c39cd336cf2a", null ],
     [ "set_direction", "group___entity.html#ga40536f1c8642014f07258de3139e2eee", null ],
     [ "set_direction", "group___entity.html#ga8f85bf0abe9ceb89fb911b1d5ba2bb8a", null ],
-    [ "set_name", "group___entity.html#ga238dda11de6ef3c24e1b235f84c9a186", null ],
     [ "set_parent", "group___entity.html#gab78de613373aff31c9c8233f5655c19d", null ],
     [ "set_position", "group___entity.html#ga74951c479a9dcc3eef119a2e7ca8ae8b", null ],
     [ "set_rotation", "group___entity.html#ga6903f8ff25be8c6a1105eb9f3a4d0556", null ],
