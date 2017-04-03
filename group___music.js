@@ -2,6 +2,7 @@ var group___music =
 [
     [ "duration", "group___music.html#ga1be36294259c9dd7e6889e9c21d116e9", null ],
     [ "fade", "group___music.html#gae197f502f6e192f9c37e18d8a1016c79", null ],
+    [ "fade_volume", "group___music.html#ga64e2e731737da1edd5868e5c85ea896d", null ],
     [ "get_position", "group___music.html#gac482a4071ff109439d3d7df2626c04b6", null ],
     [ "loop", "group___music.html#ga7f5cedd4720f3a5e6a13223228652c0d", null ],
     [ "open", "group___music.html#ga9a780ed35bd6c20a11910c7aff668411", null ],

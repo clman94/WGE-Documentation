@@ -13,14 +13,18 @@ var group___entity =
       [ "stop", "classfollow__character.html#a5aada1290009e4cdee87aa5029c0be3c", null ]
     ] ],
     [ "entity", "classentity.html", [
-      [ "is_valid", "classentity.html#af574089cc7a1467782baf92a172f14b2", null ]
+      [ "is_valid", "classentity.html#af574089cc7a1467782baf92a172f14b2", null ],
+      [ "opEquals", "classentity.html#a405b499c04533311e20be8f39385950d", null ]
     ] ],
     [ "vec", "classvec.html", [
       [ "vec", "classvec.html#ac6dcb6284ea28bf4b110613887f763cf", null ],
       [ "vec", "classvec.html#ace186f5130c16b57223357831e55ee34", null ],
       [ "vec", "classvec.html#abdb369194378c19c8396ea4297c1dbe4", null ],
+      [ "angle", "classvec.html#a23c6ac5ca8542a4353634602affaa99d", null ],
+      [ "angle", "classvec.html#a333ed3debc9be44257cbbd2364e2f141", null ],
       [ "distance", "classvec.html#a869db4820f0287bfe1f4065a51e5aa72", null ],
       [ "distance", "classvec.html#a48d14cbd8535b6a171a7932b357e6cdc", null ],
+      [ "floor", "classvec.html#a4709dd51d93658d61fe26c241b43af14", null ],
       [ "manhattan", "classvec.html#ac532321d9611935c6470bcf3089283f3", null ],
       [ "manhattan", "classvec.html#a8a67e1ed829953a108b80be9a99ea0ab", null ],
       [ "normalize", "classvec.html#a2280063ca57c55a930a36ffab7bff194", null ],
@@ -57,6 +61,8 @@ var group___entity =
     [ "detach_parent", "group___entity.html#gae5cfd3aa605a34056dced3ab63b82396", null ],
     [ "get_player", "group___entity.html#ga5c00732a4672f740007ef63c5e89fe59", null ],
     [ "get_position", "group___entity.html#ga837f908add31db3f92dd86196e344763", null ],
+    [ "get_rotation", "group___entity.html#ga3e36f44a3ad6284bcf2a266dc75c226a", null ],
+    [ "get_scale", "group___entity.html#ga4fbc055a3de9e79a893e047e7012a6b0", null ],
     [ "get_size", "group___entity.html#ga8745526cab75fe647f2089219bc2fac6", null ],
     [ "get_z", "group___entity.html#gac7ba66e21fd2082fe18dcd5ceebcdef0", null ],
     [ "is_character", "group___entity.html#ga7b14d6a851003bba2300e7e3220f0d37", null ],
@@ -84,11 +90,10 @@ var group___entity =
     [ "set_parent", "group___entity.html#gab78de613373aff31c9c8233f5655c19d", null ],
     [ "set_position", "group___entity.html#ga74951c479a9dcc3eef119a2e7ca8ae8b", null ],
     [ "set_rotation", "group___entity.html#ga6903f8ff25be8c6a1105eb9f3a4d0556", null ],
+    [ "set_scale", "group___entity.html#gaf50eaa96bd04b15475c40e98e49c71ec", null ],
     [ "set_text", "group___entity.html#ga19c24278d9ef365e7891c39aede45fe7", null ],
     [ "set_texture", "group___entity.html#gafb3c13f7425057253e7b2e27f7c5bd3f", null ],
     [ "set_visible", "group___entity.html#ga72f2f077ef9865b563afecc787ccdac1", null ],
     [ "set_z", "group___entity.html#ga386e1fb74cd948839a152529daf4dec9", null ],
-    [ "start_animation", "group___entity.html#gaafb3c572bee3bf55d57a0fa81c86caec", null ],
-    [ "stop_animation", "group___entity.html#gad22d02c8407c797814a24c83cd9b85d8", null ],
     [ "vector_direction", "group___entity.html#ga1341ba25927bdd241ce65f02e1fb19cc", null ]
 ];

@@ -24,6 +24,7 @@ var searchData=
   ['set_5fposition',['set_position',['../classgui_1_1selection__menu.html#a524d244b1e140b678393e7a711b4580d',1,'gui::selection_menu::set_position()'],['../group___entity.html#ga74951c479a9dcc3eef119a2e7ca8ae8b',1,'set_position():&#160;internal.as'],['../group___music.html#gad6fc060e8bd33cc1ba6e8abbcc7d8dae',1,'music::set_position()']]],
   ['set_5freturn',['set_return',['../classgui_1_1selection__menu.html#a0ca860abecd929678bf2895816ff9336',1,'gui::selection_menu']]],
   ['set_5frotation',['set_rotation',['../group___entity.html#ga6903f8ff25be8c6a1105eb9f3a4d0556',1,'internal.as']]],
+  ['set_5fscale',['set_scale',['../group___entity.html#gaf50eaa96bd04b15475c40e98e49c71ec',1,'internal.as']]],
   ['set_5fseperation',['set_seperation',['../classgui_1_1basic__text__selection.html#a9391f0ebf4b643e94ce60847255757a3',1,'gui::basic_text_selection']]],
   ['set_5fslot',['set_slot',['../group___game.html#gad2e7c2359d512837aa1c7a49dbf2a667',1,'internal.as']]],
   ['set_5fspeaker',['set_speaker',['../group___narrative.html#ga9ee25fdc5055cd74a80c4430a98b5fe5',1,'narrative']]],
@@ -37,9 +38,7 @@ var searchData=
   ['show',['show',['../group___narrative.html#ga36cb17ab663581010b8ca5981cd6f07f',1,'narrative']]],
   ['sound',['sound',['../group___f_x.html#gaa090c3dad9a4380fb9a59dd539fe5318',1,'fx']]],
   ['start',['start',['../classfollow__character.html#a70d8dd616012479a4bf72491757a5efa',1,'follow_character']]],
-  ['start_5fanimation',['start_animation',['../group___entity.html#gaafb3c572bee3bf55d57a0fa81c86caec',1,'internal.as']]],
   ['stop',['stop',['../group___music.html#gab612047aba6c32321fe402c3f9c9bf50',1,'music']]],
   ['stop_5fall',['stop_all',['../group___f_x.html#gac67c63fa8a70c1efb26b6f36499260df',1,'fx']]],
-  ['stop_5fanimation',['stop_animation',['../group___entity.html#gad22d02c8407c797814a24c83cd9b85d8',1,'internal.as']]],
   ['swap',['swap',['../group___music.html#ga41b3209eb63788b860f010f1a7ae1fac',1,'music']]]
 ];
