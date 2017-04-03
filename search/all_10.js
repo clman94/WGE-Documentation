@@ -46,8 +46,8 @@ var searchData=
   ['show',['show',['../group___narrative.html#ga36cb17ab663581010b8ca5981cd6f07f',1,'narrative']]],
   ['sound',['sound',['../group___f_x.html#gaa090c3dad9a4380fb9a59dd539fe5318',1,'fx']]],
   ['speed',['speed',['../classspeed.html',1,'']]],
-  ['start',['start',['../classfollow__character.html#a70d8dd616012479a4bf72491757a5efa',1,'follow_character']]],
-  ['stop',['stop',['../group___music.html#gab612047aba6c32321fe402c3f9c9bf50',1,'music']]],
+  ['start',['start',['../classfollow__character.html#a70d8dd616012479a4bf72491757a5efa',1,'follow_character::start()'],['../group___entity.html#gae2e746d46f58a311a1c63a0cfc08f00a',1,'animation::start()']]],
+  ['stop',['stop',['../group___entity.html#ga911d94ed7d2238a7287d124f6de1a946',1,'animation::stop()'],['../group___music.html#gab612047aba6c32321fe402c3f9c9bf50',1,'music::stop()']]],
   ['stop_5fall',['stop_all',['../group___f_x.html#gac67c63fa8a70c1efb26b6f36499260df',1,'fx']]],
   ['swap',['swap',['../group___music.html#ga41b3209eb63788b860f010f1a7ae1fac',1,'music']]]
 ];

@@ -64,8 +64,10 @@ var group___entity =
     [ "get_rotation", "group___entity.html#ga3e36f44a3ad6284bcf2a266dc75c226a", null ],
     [ "get_scale", "group___entity.html#ga4fbc055a3de9e79a893e047e7012a6b0", null ],
     [ "get_size", "group___entity.html#ga8745526cab75fe647f2089219bc2fac6", null ],
+    [ "get_speed", "group___entity.html#ga0610759b5a74c39f0ec3d981f1a6d123", null ],
     [ "get_z", "group___entity.html#gac7ba66e21fd2082fe18dcd5ceebcdef0", null ],
     [ "is_character", "group___entity.html#ga7b14d6a851003bba2300e7e3220f0d37", null ],
+    [ "is_playing", "group___entity.html#gafdb7671b2d53ae5d2149ca92eb8cb312", null ],
     [ "make_gui", "group___entity.html#ga14c3e44e0f47339956cc602d605ebaaa", null ],
     [ "move", "group___entity.html#gacf3c20077d1888291c918f0f4f7a4c1f", null ],
     [ "move", "group___entity.html#ga129d48ec60fd9af72bf98cc953831cc5", null ],
@@ -74,6 +76,7 @@ var group___entity =
     [ "move_towards", "group___entity.html#ga0b731189e371109aa31dd08eaa59c0d2", null ],
     [ "move_z", "group___entity.html#gadd0ba3e805417380425d0b5bfd58aeed", null ],
     [ "pathfind_move", "group___entity.html#ga697b7f39a31241b81b7b318f375a1ad0", null ],
+    [ "pause", "group___entity.html#ga19939d073cae676c1a266dca3e80a21d", null ],
     [ "pixel", "group___entity.html#gac1b95e4bac4f668f5674f49d4471a063", null ],
     [ "pixel", "group___entity.html#gaa8605f6263345667680d372e7705288c", null ],
     [ "remove_entity", "group___entity.html#gab3759bdbb03d2c25909fcb60d35a3ffd", null ],
@@ -95,5 +98,7 @@ var group___entity =
     [ "set_texture", "group___entity.html#gafb3c13f7425057253e7b2e27f7c5bd3f", null ],
     [ "set_visible", "group___entity.html#ga72f2f077ef9865b563afecc787ccdac1", null ],
     [ "set_z", "group___entity.html#ga386e1fb74cd948839a152529daf4dec9", null ],
+    [ "start", "group___entity.html#gae2e746d46f58a311a1c63a0cfc08f00a", null ],
+    [ "stop", "group___entity.html#ga911d94ed7d2238a7287d124f6de1a946", null ],
     [ "vector_direction", "group___entity.html#ga1341ba25927bdd241ce65f02e1fb19cc", null ]
 ];

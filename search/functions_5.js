@@ -17,5 +17,6 @@ var searchData=
   ['get_5fshared',['get_shared',['../group___game.html#gabd40ef8ad89fb40dfed4565cc1c6e760',1,'internal.as']]],
   ['get_5fsize',['get_size',['../group___entity.html#ga8745526cab75fe647f2089219bc2fac6',1,'internal.as']]],
   ['get_5fslot',['get_slot',['../group___game.html#ga7d68a5aedf9ffbec2184b1221f13c727',1,'internal.as']]],
+  ['get_5fspeed',['get_speed',['../group___entity.html#ga0610759b5a74c39f0ec3d981f1a6d123',1,'animation']]],
   ['get_5fz',['get_z',['../group___entity.html#gac7ba66e21fd2082fe18dcd5ceebcdef0',1,'internal.as']]]
 ];
