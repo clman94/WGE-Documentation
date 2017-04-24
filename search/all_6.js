@@ -7,6 +7,7 @@ var searchData=
   ['get_5fbox',['get_box',['../group___narrative.html#gafabe4d86e7841cab085fd0a1543e3abd',1,'narrative']]],
   ['get_5fcolumn_5fheight',['get_column_height',['../classgui_1_1selector__control.html#aae92d832d9d6684632252b80f05da384',1,'gui::selector_control']]],
   ['get_5fdelta',['get_delta',['../group___game.html#gaec56aeaa82b91deb06e88abb2ff54077',1,'internal.as']]],
+  ['get_5fdirection',['get_direction',['../group___entity.html#ga13847d5697a10eaa5b96eec75411425e',1,'entity.as']]],
   ['get_5fid',['get_id',['../classgui_1_1menu__item.html#a45e0ec5aba95e058afb1bfb7ac46e12f',1,'gui::menu_item']]],
   ['get_5fitem_5fcount',['get_item_count',['../classgui_1_1selector__control.html#a3b2966b87a7ae02e2f402bf78b1473e8',1,'gui::selector_control']]],
   ['get_5fmenu',['get_menu',['../classgui_1_1menu__branch.html#a300208696e64d6a227f1af25a0ffe9e3',1,'gui::menu_branch']]],

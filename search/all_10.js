@@ -23,7 +23,7 @@ var searchData=
   ['set_5fdepth',['set_depth',['../group___entity.html#ga31bd6dfed4d6080391bf8832619767cb',1,'set_depth(entity pEntity, fixed_depth pDepth):&#160;entity.as'],['../group___entity.html#ga9e12e9fdaee999029888d86128988016',1,'set_depth(entity &amp;in pEntity, float pDepth):&#160;internal.as']]],
   ['set_5fdepth_5ffixed',['set_depth_fixed',['../group___entity.html#gae3450bc4a3c7915728b8c39cd336cf2a',1,'internal.as']]],
   ['set_5fdialog_5fsound',['set_dialog_sound',['../group___narrative.html#gaed6fde994058b30ff13dfe80927355d6',1,'narrative']]],
-  ['set_5fdirection',['set_direction',['../group___entity.html#ga40536f1c8642014f07258de3139e2eee',1,'set_direction(entity pEntity, vec pTowards):&#160;entity.as'],['../group___entity.html#ga8f85bf0abe9ceb89fb911b1d5ba2bb8a',1,'set_direction(entity &amp;in pEntity, direction pDirection):&#160;internal.as']]],
+  ['set_5fdirection',['set_direction',['../group___entity.html#ga40536f1c8642014f07258de3139e2eee',1,'set_direction(entity pEntity, vec pTowards):&#160;entity.as'],['../group___entity.html#ga6e57bddbc24d1b4511978e5b24c8d25c',1,'set_direction(entity pEntity, direction pDirection):&#160;entity.as']]],
   ['set_5fflag',['set_flag',['../group___flags.html#ga990593e42aa4638e44e6bb5a602da95b',1,'internal.as']]],
   ['set_5fid',['set_id',['../classgui_1_1menu__item.html#a327c7714e39a533207d256f3b63d206e',1,'gui::menu_item']]],
   ['set_5finterval',['set_interval',['../group___narrative.html#ga6f2c04e7ae5cf2960eeb378b4c65fd14',1,'narrative']]],
