@@ -20,6 +20,7 @@ var searchData=
   ['set_5fid',['set_id',['../classgui_1_1menu__item.html#a327c7714e39a533207d256f3b63d206e',1,'gui::menu_item']]],
   ['set_5finterval',['set_interval',['../group___narrative.html#ga6f2c04e7ae5cf2960eeb378b4c65fd14',1,'narrative']]],
   ['set_5fitem_5fcount',['set_item_count',['../classgui_1_1selector__control.html#a47125d5922897fe06826a53e8da22934',1,'gui::selector_control']]],
+  ['set_5fparallax',['set_parallax',['../group___entity.html#gaa540134bd9523141989d3e2746fb0b77',1,'internal.as']]],
   ['set_5fparent',['set_parent',['../group___entity.html#gab78de613373aff31c9c8233f5655c19d',1,'internal.as']]],
   ['set_5fposition',['set_position',['../classgui_1_1selection__menu.html#a524d244b1e140b678393e7a711b4580d',1,'gui::selection_menu::set_position()'],['../group___entity.html#ga74951c479a9dcc3eef119a2e7ca8ae8b',1,'set_position():&#160;internal.as'],['../group___music.html#gad6fc060e8bd33cc1ba6e8abbcc7d8dae',1,'music::set_position()']]],
   ['set_5freturn',['set_return',['../classgui_1_1selection__menu.html#a0ca860abecd929678bf2895816ff9336',1,'gui::selection_menu']]],

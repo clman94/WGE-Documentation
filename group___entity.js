@@ -91,6 +91,7 @@ var group___entity =
     [ "set_depth_fixed", "group___entity.html#gae3450bc4a3c7915728b8c39cd336cf2a", null ],
     [ "set_direction", "group___entity.html#ga40536f1c8642014f07258de3139e2eee", null ],
     [ "set_direction", "group___entity.html#ga6e57bddbc24d1b4511978e5b24c8d25c", null ],
+    [ "set_parallax", "group___entity.html#gaa540134bd9523141989d3e2746fb0b77", null ],
     [ "set_parent", "group___entity.html#gab78de613373aff31c9c8233f5655c19d", null ],
     [ "set_position", "group___entity.html#ga74951c479a9dcc3eef119a2e7ca8ae8b", null ],
     [ "set_rotation", "group___entity.html#ga6903f8ff25be8c6a1105eb9f3a4d0556", null ],
