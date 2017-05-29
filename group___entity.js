@@ -40,6 +40,7 @@ var group___entity =
       [ "scoped_entity", "classscoped__entity.html#a4f61d7d759d5cfa630919a4a8590c9e6", null ],
       [ "scoped_entity", "classscoped__entity.html#a7788f7ca3b47615d4946aa8be22cfa16", null ],
       [ "~scoped_entity", "classscoped__entity.html#a9f53873e318e466bf3f24bf751ad5005", null ],
+      [ "get", "classscoped__entity.html#a5ea63f3f656b06e8cb8fca1d909823ba", null ],
       [ "opAssign", "classscoped__entity.html#a4813233ce5298fd0b0cbfc79e3e63cf6", null ],
       [ "opAssign", "classscoped__entity.html#a985579c280a3410ff3c950b21a0e0561", null ],
       [ "opImplConv", "classscoped__entity.html#a16536f3f8810ff53f6bba0a0bcc108b5", null ],
@@ -70,6 +71,7 @@ var group___entity =
     [ "is_character", "group___entity.html#ga7b14d6a851003bba2300e7e3220f0d37", null ],
     [ "is_playing", "group___entity.html#gafdb7671b2d53ae5d2149ca92eb8cb312", null ],
     [ "make_gui", "group___entity.html#ga14c3e44e0f47339956cc602d605ebaaa", null ],
+    [ "midpoint", "group___entity.html#gae5a51b68c67b9e9f489686d3c1d5b097", null ],
     [ "move", "group___entity.html#gacf3c20077d1888291c918f0f4f7a4c1f", null ],
     [ "move", "group___entity.html#ga129d48ec60fd9af72bf98cc953831cc5", null ],
     [ "move", "group___entity.html#gad4fa0f570bffde75068b5feec563f993", null ],
@@ -79,7 +81,7 @@ var group___entity =
     [ "pathfind_move", "group___entity.html#ga697b7f39a31241b81b7b318f375a1ad0", null ],
     [ "pause", "group___entity.html#ga19939d073cae676c1a266dca3e80a21d", null ],
     [ "pixel", "group___entity.html#gac1b95e4bac4f668f5674f49d4471a063", null ],
-    [ "pixel", "group___entity.html#gaa8605f6263345667680d372e7705288c", null ],
+    [ "pixel", "group___entity.html#gad462f5e9c203d29035432e0ee81f1ec4", null ],
     [ "remove_entity", "group___entity.html#gab3759bdbb03d2c25909fcb60d35a3ffd", null ],
     [ "set_anchor", "group___entity.html#gab31ad677c1f6f2bc4f39c7be286ea184", null ],
     [ "set_atlas", "group___entity.html#ga2d449a0b4a2aee7a0a95e999dc30ed9d", null ],
@@ -91,7 +93,7 @@ var group___entity =
     [ "set_depth_fixed", "group___entity.html#gae3450bc4a3c7915728b8c39cd336cf2a", null ],
     [ "set_direction", "group___entity.html#ga40536f1c8642014f07258de3139e2eee", null ],
     [ "set_direction", "group___entity.html#ga6e57bddbc24d1b4511978e5b24c8d25c", null ],
-    [ "set_parallax", "group___entity.html#gabf97ba7014f6726317ef90153721d2ec", null ],
+    [ "set_parallax", "group___entity.html#gaa540134bd9523141989d3e2746fb0b77", null ],
     [ "set_parent", "group___entity.html#gab78de613373aff31c9c8233f5655c19d", null ],
     [ "set_position", "group___entity.html#ga74951c479a9dcc3eef119a2e7ca8ae8b", null ],
     [ "set_rotation", "group___entity.html#ga6903f8ff25be8c6a1105eb9f3a4d0556", null ],
@@ -103,5 +105,6 @@ var group___entity =
     [ "set_z", "group___entity.html#ga386e1fb74cd948839a152529daf4dec9", null ],
     [ "start", "group___entity.html#gae2e746d46f58a311a1c63a0cfc08f00a", null ],
     [ "stop", "group___entity.html#ga911d94ed7d2238a7287d124f6de1a946", null ],
-    [ "vector_direction", "group___entity.html#ga1341ba25927bdd241ce65f02e1fb19cc", null ]
+    [ "vector_direction", "group___entity.html#ga1341ba25927bdd241ce65f02e1fb19cc", null ],
+    [ "vtos", "group___entity.html#ga807ac7cf49805443b6ea4a6eeff5fe39", null ]
 ];

@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>Wolf-Gang engine: Member List</title>
+<title>Wolf-Gang engine: box Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -86,7 +86,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('classentity.html','');});
+$(document).ready(function(){initNavTree('classbox.html','');});
 </script>
 <div id="doc-content">
 <!-- window showing the filter options -->
@@ -104,20 +104,53 @@ $(document).ready(function(){initNavTree('classentity.html','');});
 </div>
 
 <div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="classbox-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">entity Member List</div>  </div>
+<div class="title">box Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-
-<p>This is the complete list of members for <a class="el" href="classentity.html">entity</a>, including all inherited members.</p>
-<table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="classentity.html#af574089cc7a1467782baf92a172f14b2">is_valid</a>() const </td><td class="entry"><a class="el" href="classentity.html">entity</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="classentity.html#a405b499c04533311e20be8f39385950d">opEquals</a>(const entity &amp;in) const </td><td class="entry"><a class="el" href="classentity.html">entity</a></td><td class="entry"></td></tr>
-</table></div><!-- contents -->
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a0ccf7a480bb7d070c9e1e7386839af77"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0ccf7a480bb7d070c9e1e7386839af77"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>box</b> (string pTexture, <a class="el" href="classvec.html">vec</a> pPos, <a class="el" href="classvec.html">vec</a> pSize, bool pSymmetric=false)</td></tr>
+<tr class="separator:a0ccf7a480bb7d070c9e1e7386839af77"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed2c61d50979ed407b5c6e3ef155f552"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aed2c61d50979ed407b5c6e3ef155f552"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>is_valid</b> ()</td></tr>
+<tr class="separator:aed2c61d50979ed407b5c6e3ef155f552"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a42d78c2cc16176288539bf232c09a798"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a42d78c2cc16176288539bf232c09a798"></a>
+<a class="el" href="classvec.html">vec</a>&#160;</td><td class="memItemRight" valign="bottom"><b>get_position</b> ()</td></tr>
+<tr class="separator:a42d78c2cc16176288539bf232c09a798"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a975b3d0547dd4f672e0914bac4efcc81"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a975b3d0547dd4f672e0914bac4efcc81"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>set_position</b> (<a class="el" href="classvec.html">vec</a> pPosition)</td></tr>
+<tr class="separator:a975b3d0547dd4f672e0914bac4efcc81"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adcf1405048af0e877a67f03986dd5748"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="adcf1405048af0e877a67f03986dd5748"></a>
+<a class="el" href="classvec.html">vec</a>&#160;</td><td class="memItemRight" valign="bottom"><b>get_size</b> (bool pIn_pixels=false)</td></tr>
+<tr class="separator:adcf1405048af0e877a67f03986dd5748"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a03f0da742decf071ae08608070b2183b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a03f0da742decf071ae08608070b2183b"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>set_size</b> (<a class="el" href="classvec.html">vec</a> pSize, bool pIn_pixels=false)</td></tr>
+<tr class="separator:a03f0da742decf071ae08608070b2183b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa0f823887e671f0401266100b41ea50"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aaa0f823887e671f0401266100b41ea50"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>show</b> ()</td></tr>
+<tr class="separator:aaa0f823887e671f0401266100b41ea50"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad8e6bd5db2490ca10963a004e42c233"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aad8e6bd5db2490ca10963a004e42c233"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>hide</b> ()</td></tr>
+<tr class="separator:aad8e6bd5db2490ca10963a004e42c233"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ae3b564a1825976b4c5c59d75ee83dc"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1ae3b564a1825976b4c5c59d75ee83dc"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>remove</b> ()</td></tr>
+<tr class="separator:a1ae3b564a1825976b4c5c59d75ee83dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li>boxes.as</li>
+</ul>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
+    <li class="navelem"><a class="el" href="classbox.html">box</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

@@ -11,7 +11,7 @@ var group___narrative =
     [ "fsay", "group___narrative.html#ga0ceefce3ffa29febded8c2bf358df8da", null ],
     [ "get_box", "group___narrative.html#gafabe4d86e7841cab085fd0a1543e3abd", null ],
     [ "hide", "group___narrative.html#ga89d334b4407ee3e5ee09f28360459a14", null ],
-    [ "keywait", "group___narrative.html#ga5266a73c5b1e4c063d61ffa21331189c", null ],
+    [ "keywait", "group___narrative.html#ga03809c3f5372da6a6771546e1d44b522", null ],
     [ "newline", "group___narrative.html#gac52e13c9271f5af28d1db1625c59848d", null ],
     [ "nl", "group___narrative.html#ga009f3b73da59c2a280caf06b2e2c4a89", null ],
     [ "say", "group___narrative.html#ga9d381e71fff2f461cabb825b9cf16451", null ],

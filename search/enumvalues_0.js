@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['activate',['activate',['../group___game.html#ggae1baa9f42256960b9f5b2161a808a3aca6ef3cb00ee126a8246ed3be5f8341285',1,'game.as']]]
+  ['background',['background',['../group___entity.html#gga6f81af99d6519c46f926bb52271b6748a1667f13aa992e373547cf10fc8c61590',1,'entity.as']]],
+  ['below',['below',['../group___entity.html#gga6f81af99d6519c46f926bb52271b6748aed898006c2edf070faf083d91c89c351',1,'entity.as']]]
 ];
