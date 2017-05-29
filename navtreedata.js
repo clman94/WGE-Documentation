@@ -10,6 +10,13 @@ var NAVTREE =
         [ "Dictionary", "^http://www.angelcode.com/angelscript/sdk/docs/manual/doc_datatypes_dictionary.html", null ]
       ] ]
     ] ],
+    [ "Namespaces", null, [
+      [ "Namespace List", "namespaces.html", "namespaces" ],
+      [ "Namespace Members", "namespacemembers.html", [
+        [ "All", "namespacemembers.html", null ],
+        [ "Functions", "namespacemembers_func.html", null ]
+      ] ]
+    ] ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
       [ "Class Index", "classes.html", null ],

@@ -1,7 +1,9 @@
 var group___game =
 [
+    [ "values", "namespacevalues.html", null ],
     [ "dprint", "group___game.html#gabadf68e0a0962940ddaf4bf6eea934fc", null ],
     [ "eprint", "group___game.html#gaa5b6b5eff8f05ae9d38ca5a669e45e04", null ],
+    [ "exists", "group___game.html#ga419635bf8d905adacbe66bcf8dc94dc1", null ],
     [ "get_delta", "group___game.html#gaec56aeaa82b91deb06e88abb2ff54077", null ],
     [ "get_entries", "group___game.html#ga110e10dc82a553422a73f39a181c259f", null ],
     [ "get_float", "group___game.html#ga744fd2eae6d4dd50a51a1dac5cbed5d8", null ],
